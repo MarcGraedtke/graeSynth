@@ -337,7 +337,7 @@ def spec_rows(m, lang, T):
     rows = []
     if f.get("hp"):
         rows.append((S["width"], "%d %s · %s mm" % (f["hp"], T["hp"], ("%.1f" % f["width_mm"]).replace(".", "," if lang == "de" else "."))))
-    rows.append((S["height"], "3 HE · 128,5 mm" if lang == "de" else "3U · 128.5 mm"))
+    rows.append((S["height"], "3 U · 128,5 mm" if lang == "de" else "3 U · 128.5 mm"))
     for k in ("jacks", "knobs", "switches"):
         if f.get(k):
             rows.append((S[k], str(f[k])))
