@@ -1,0 +1,25 @@
+{
+	admin off
+}
+
+# Railway setzt PORT; lokal 8080
+:{$PORT:8080} {
+	root * /srv
+	encode zstd gzip
+	file_server
+
+	# Vorschau: Suchmaschinen fernhalten. Zum Freischalten diese Zeile und robots.txt in dist/ entfernen.
+	header X-Robots-Tag "noindex, nofollow"
+
+	@glb path *.glb
+	header @glb Content-Type "model/gltf-binary"
+
+	# Bilder, Modelle, CSS/JS tragen ?v=<Stand> in der Adresse -> lange zwischenspeichern
+	@static path /assets/* /img/* /models/*
+	header @static Cache-Control "public, max-age=31536000, immutable"
+	@html path *.html /
+	header @html Cache-Control "no-cache"
+
+	header X-Content-Type-Options "nosniff"
+	header Referrer-Policy "strict-origin-when-cross-origin"
+}

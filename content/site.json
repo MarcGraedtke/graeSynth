@@ -1,0 +1,98 @@
+{
+  "de": {
+    "title": "graeSynth – Eurorack-Module",
+    "kicker": "Eurorack-Module aus Deutschland",
+    "h1": "graeSynth – Eurorack-Module",
+    "lead": "graeSynth ist ein Eurorack-System aus analogen, passiven und digitalen Modulen mit einer einheitlichen, klar beschrifteten Front. Die Module gibt es fertig aufgebaut oder als Bausatz zum Selbstlöten.",
+    "badge": "In Entwicklung · noch nicht erhältlich · Bilder sind Renderings",
+    "rack_label": "Alle Module nebeneinander",
+    "nav": {"module": "Module", "system": "System", "status": "Stand"},
+    "h_modules": "Module",
+    "sub_modules": "%d Module in drei Familien. Ein Klick öffnet die Details.",
+    "hp": "TE",
+    "all": "Alle",
+    "modules": "Module",
+    "fam": {
+      "A": {"short": "A · Analog", "name": "Analog", "text": "Die klassischen Bausteine: Oszillator, Filter, VCA, Hüllkurve, LFO und alles, was Spannungen formt."},
+      "P": {"short": "P · Passiv", "name": "Passiv", "text": "Verteiler, Abschwächer, Mischer und Schalter. Sie brauchen keinen Strom und keinen Busanschluss."},
+      "D": {"short": "D · Digital", "name": "Digital", "text": "Sequencer, Zufall, MIDI, Messgerät und Klangerzeuger mit Mikrocontroller. Die Firmware lässt sich aktualisieren."}
+    },
+    "cat": {"source": "Klangquellen", "filter": "Filter & Effekte", "modulation": "Modulation", "sequencing": "Takt & Sequenz", "utility": "Werkzeuge", "io": "MIDI & Audio I/O"},
+    "h_system": "Das System",
+    "sub_system": "Drei Familien, eine Gestaltung. Die Kennung auf jeder Front zeigt die Familie.",
+    "system_points": [
+      ["Eurorack-Format.", "3 HE hoch, Breiten von 4 bis 12 TE, Versorgung ± 12 V über den üblichen Busstecker."],
+      ["Lesbare Fronten.", "Eingänge und Ausgänge sind klar getrennt, Ausgänge liegen auf goldenen Feldern. Linien zeigen den Signalweg."],
+      ["Fertig oder als Bausatz.", "Fertigmodule sind in SMD bestückt. Die Bausätze verwenden bedrahtete Bauteile und dieselbe Frontplatte."],
+      ["Offen dokumentiert.", "Zu jedem Modul gibt es Bedienhinweise mit Wertebereichen und Patch-Ideen."]
+    ],
+    "h_status": "Stand der Entwicklung",
+    "status": "Die Schaltungen und Leiterplatten aller Module sind entworfen und geprüft, Muster sind noch nicht gebaut. Alle Angaben auf dieser Seite sind berechnet und können sich bis zur Serie ändern. Preise und Liefertermine nennen wir, sobald die ersten Muster gemessen sind.",
+    "foot": "Eurorack-Module. Alle Bilder sind Renderings aus den Konstruktionsdaten.",
+    "imprint": "Impressum",
+    "privacy": "Datenschutz",
+    "back": "← Alle Module",
+    "alt3d": "%s, zusammengebautes Modul in der Schrägansicht",
+    "alt3d_kit": "%s, Bausatz mit bedrahteten Bauteilen in der Schrägansicht",
+    "sch_title": "Schaltplan", "sch_note": "Vollständige Schaltpläne als PDF. Die Beschriftung ist englisch.",
+    "sch_part": {"control": "Bedienplatine", "main": "Hauptplatine", "front": "Frontplatine", "traeger": "Trägerplatine", "rgb": "RGB-Ausführung"},
+    "variant_label": "Ausführung wählen", "variant_main": "Fertigmodul", "variant_kit": "Bausatz (THT)", "variant_rgb": "RGB-Ausführung", "variant_mono": "Einfarbige LEDs",
+    "alt3d_mono": "%s, Ausführung mit einfarbigen LEDs in der Schrägansicht",
+    "alt3d_rgb": "%s, Ausführung mit RGB-LEDs in der Schrägansicht",
+    "btn3d": "3D-Modell laden (%s MB)",
+    "note3d": "Das Modell lässt sich drehen und zoomen. Der Viewer wird erst nach dem Klick geladen.",
+    "spec": {"width": "Breite", "height": "Höhe", "jacks": "Buchsen", "knobs": "Regler", "switches": "Schalter und Taster", "power": "Versorgung", "powered": "± 12 V (Eurorack-Bus)", "passive": "passiv, kein Strom", "form": "Ausführung", "assembled": "Fertigmodul", "kit": "Bausatz"},
+    "legal": {
+      "impressum": {"title": "Impressum", "text": "Platzhalter: Hier stehen vor der Veröffentlichung die Pflichtangaben nach § 5 DDG (Name, Anschrift, Kontakt)."},
+      "datenschutz": {"title": "Datenschutz", "text": "Platzhalter: Hier steht vor der Veröffentlichung die Datenschutzerklärung. Die Seite setzt keine Cookies und lädt außer dem 3D-Viewer (nach Klick) nichts von fremden Servern."}
+    }
+  },
+  "en": {
+    "title": "graeSynth – Eurorack modules",
+    "kicker": "Eurorack modules from Germany",
+    "h1": "graeSynth – Eurorack modules",
+    "lead": "graeSynth is a Eurorack system of analogue, passive and digital modules that share one clearly labelled front panel design. The modules come assembled or as a kit to solder yourself.",
+    "badge": "In development · not yet available · images are renderings",
+    "rack_label": "All modules side by side",
+    "nav": {"module": "Modules", "system": "System", "status": "Status"},
+    "h_modules": "Modules",
+    "sub_modules": "%d modules in three families. Click one for details.",
+    "hp": "HP",
+    "all": "All",
+    "modules": "modules",
+    "fam": {
+      "A": {"short": "A · Analogue", "name": "Analogue", "text": "The classic building blocks: oscillator, filter, VCA, envelope, LFO and everything that shapes voltages."},
+      "P": {"short": "P · Passive", "name": "Passive", "text": "Multiples, attenuators, mixers and switches. They need no power and no bus connection."},
+      "D": {"short": "D · Digital", "name": "Digital", "text": "Sequencers, randomness, MIDI, measurement and sound sources built around a microcontroller. The firmware can be updated."}
+    },
+    "cat": {"source": "Sound sources", "filter": "Filters & effects", "modulation": "Modulation", "sequencing": "Clock & sequencing", "utility": "Utilities", "io": "MIDI & audio I/O"},
+    "h_system": "The system",
+    "sub_system": "Three families, one design. The ID on every panel shows the family.",
+    "system_points": [
+      ["Eurorack format.", "3U high, 4 to 12 HP wide, powered from ± 12 V through the standard bus connector."],
+      ["Readable panels.", "Inputs and outputs are clearly separated, and outputs sit on gold fields. Lines show the signal path."],
+      ["Assembled or as a kit.", "Assembled modules use SMD parts. The kits use through-hole parts and the same front panel."],
+      ["Openly documented.", "Every module comes with user notes that give value ranges and patch ideas."]
+    ],
+    "h_status": "Development status",
+    "status": "The circuits and circuit boards of all modules are designed and checked; prototypes have not been built yet. All figures on this site are calculated and may change before production. We will publish prices and delivery dates once the first prototypes have been measured.",
+    "foot": "Eurorack modules. All images are renderings from the design data.",
+    "imprint": "Legal notice",
+    "privacy": "Privacy",
+    "back": "← All modules",
+    "alt3d": "%s, assembled module in a three-quarter view",
+    "alt3d_kit": "%s, kit with through-hole parts in a three-quarter view",
+    "sch_title": "Schematic", "sch_note": "Complete schematics as PDF.",
+    "sch_part": {"control": "control board", "main": "main board", "front": "front board", "traeger": "carrier board", "rgb": "RGB version"},
+    "variant_label": "Choose version", "variant_main": "Assembled module", "variant_kit": "Kit (THT)", "variant_rgb": "RGB version", "variant_mono": "Single-colour LEDs",
+    "alt3d_mono": "%s, version with single-colour LEDs in a three-quarter view",
+    "alt3d_rgb": "%s, version with RGB LEDs in a three-quarter view",
+    "btn3d": "Load 3D model (%s MB)",
+    "note3d": "You can rotate and zoom the model. The viewer only loads after you click.",
+    "spec": {"width": "Width", "height": "Height", "jacks": "Jacks", "knobs": "Knobs", "switches": "Switches and buttons", "power": "Power", "powered": "± 12 V (Eurorack bus)", "passive": "passive, no power", "form": "Available as", "assembled": "Assembled module", "kit": "Kit"},
+    "legal": {
+      "impressum": {"title": "Legal notice", "text": "Placeholder: the legally required provider details (name, address, contact) go here before the site is published."},
+      "datenschutz": {"title": "Privacy", "text": "Placeholder: the privacy policy goes here before the site is published. The site sets no cookies and loads nothing from third-party servers except the 3D viewer (after a click)."}
+    }
+  }
+}

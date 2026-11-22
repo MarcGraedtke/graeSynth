@@ -1,0 +1,3263 @@
+{
+ "modules": [
+  {
+   "id": "A1",
+   "folder": "001_A1_Attenuverter_Utility-VCA",
+   "cat": "utility",
+   "name": {
+    "de": "Attenuverter",
+    "en": "Attenuverter"
+   },
+   "tag": {
+    "de": "Vier Kanäle von −1 bis +1",
+    "en": "Four channels from −1 to +1"
+   },
+   "text": {
+    "de": "Vier gleiche Kanäle skalieren ein Signal stufenlos zwischen invertiert und unverändert. Ohne Kabel am Eingang liefert jeder Kanal eine einstellbare Spannung.",
+    "en": "Four identical channels scale a signal continuously between inverted and unchanged. With nothing patched to the input, each channel becomes an adjustable voltage source."
+   },
+   "feat": {
+    "de": [
+     "Poti-Mitte = kein Signal",
+     "Eingänge intern auf +5 V normalisiert: Offset −5 … +5 V",
+     "Für CV und Audio"
+    ],
+    "en": [
+     "Centre position = no signal",
+     "Inputs normalled to +5 V: offset from −5 to +5 V",
+     "Works with CV and audio"
+    ]
+   },
+   "leds": [
+    {
+     "x": 19.93,
+     "y": 16.37,
+     "d": 8.91
+    },
+    {
+     "x": 39.73,
+     "y": 16.37,
+     "d": 8.91
+    },
+    {
+     "x": 59.53,
+     "y": 16.37,
+     "d": 8.91
+    },
+    {
+     "x": 79.33,
+     "y": 16.37,
+     "d": 8.91
+    }
+   ],
+   "facts": {
+    "kit": true,
+    "assembled": true,
+    "panel": "A1_Panel_V0_15",
+    "hp": 8,
+    "width_mm": 40.4,
+    "jacks": 8,
+    "knobs": 4,
+    "switches": 0,
+    "powered": true
+   },
+   "img": {
+    "front": {
+     "src": "img/a1-front.webp?v=6b0163b0",
+     "w": 470,
+     "h": 1500
+    },
+    "view3d": {
+     "src": "img/a1-3d.webp?v=6b0163cf",
+     "w": 1032,
+     "h": 1026
+    }
+   },
+   "model": {
+    "src": "models/a1.glb?v=6b0163d2",
+    "mb": 0.6
+   },
+   "variants": [
+    {
+     "key": "kit",
+     "img": {
+      "src": "img/a1-kit-3d.webp?v=6b0163ef",
+      "w": 1032,
+      "h": 1070
+     },
+     "model": {
+      "src": "models/a1-kit.glb?v=6b0163f0",
+      "mb": 1.2
+     }
+    }
+   ],
+   "schematics": [
+    {
+     "kind": "main",
+     "part": "",
+     "src": "schematics/A1_Attenuverter_Schematic.pdf",
+     "kb": 197
+    },
+    {
+     "kind": "kit",
+     "part": "",
+     "src": "schematics/A1_Kit_Schematic.pdf",
+     "kb": 199
+    }
+   ],
+   "slug": "a1-attenuverter"
+  },
+  {
+   "id": "A2",
+   "folder": "002_A2_Dual_LFO",
+   "cat": "modulation",
+   "name": {
+    "de": "Dual LFO",
+    "en": "Dual LFO"
+   },
+   "tag": {
+    "de": "Zwei LFOs mit je vier Wellenformen",
+    "en": "Two LFOs with four waveforms each"
+   },
+   "text": {
+    "de": "Zwei unabhängige, gleich aufgebaute LFOs. Jeder gibt Dreieck, Rechteck, Sägezahn und Sinus gleichzeitig aus.",
+    "en": "Two independent, identical LFOs. Each one outputs triangle, square, saw and sine simultaneously."
+   },
+   "feat": {
+    "de": [
+     "Rate ca. 0,07 Hz … 50 Hz, per CV steuerbar",
+     "SHAPE verschiebt die Symmetrie von fallender zu steigender Rampe",
+     "Zweifarbige LEDs zeigen den Verlauf"
+    ],
+    "en": [
+     "Rate from about 0.07 Hz to 50 Hz, CV controllable",
+     "SHAPE shifts the symmetry from falling to rising ramp",
+     "Bicolour LEDs show the waveform"
+    ]
+   },
+   "leds": [
+    {
+     "x": 26.09,
+     "y": 49.42,
+     "d": 7.11
+    },
+    {
+     "x": 73.91,
+     "y": 49.42,
+     "d": 7.11
+    }
+   ],
+   "facts": {
+    "kit": true,
+    "assembled": true,
+    "panel": "A2_Panel_V0_16",
+    "hp": 10,
+    "width_mm": 50.6,
+    "jacks": 12,
+    "knobs": 4,
+    "switches": 0,
+    "powered": true
+   },
+   "img": {
+    "front": {
+     "src": "img/a2-front.webp?v=6b01643f",
+     "w": 589,
+     "h": 1500
+    },
+    "view3d": {
+     "src": "img/a2-3d.webp?v=6b016471",
+     "w": 1133,
+     "h": 1080
+    }
+   },
+   "model": {
+    "src": "models/a2.glb?v=6b016472",
+    "mb": 1.0
+   },
+   "variants": [
+    {
+     "key": "kit",
+     "img": {
+      "src": "img/a2-kit-3d.webp?v=6b0164ad",
+      "w": 1133,
+      "h": 1120
+     },
+     "model": {
+      "src": "models/a2-kit.glb?v=6b0164af",
+      "mb": 2.2
+     }
+    }
+   ],
+   "schematics": [
+    {
+     "kind": "main",
+     "part": "",
+     "src": "schematics/A2_Dual_LFO_Schematic.pdf",
+     "kb": 319
+    },
+    {
+     "kind": "kit",
+     "part": "",
+     "src": "schematics/A2_Kit_Schematic.pdf",
+     "kb": 322
+    }
+   ],
+   "slug": "a2-dual-lfo"
+  },
+  {
+   "id": "A3",
+   "folder": "003_A3_Quad_VCA_Mixer",
+   "cat": "utility",
+   "name": {
+    "de": "Quad VCA / Mixer",
+    "en": "Quad VCA / Mixer"
+   },
+   "tag": {
+    "de": "Vier VCAs mit Summenausgang",
+    "en": "Four VCAs with a sum output"
+   },
+   "text": {
+    "de": "Vier lineare VCAs mit eigenem Ausgang und ein Summenausgang mit Pegelregler. Je nach Steckung 4-fach-VCA, vierkanaliger Mischer oder beides.",
+    "en": "Four linear VCAs with individual outputs plus a sum output with level control. Depending on patching it is a quad VCA, a four-channel mixer, or both."
+   },
+   "feat": {
+    "de": [
+     "Ohne CV-Kabel ist LVL ein normaler Lautstärkeregler",
+     "Ein belegter Einzelausgang nimmt den Kanal aus der Summe",
+     "Für Audio und Steuerspannungen"
+    ],
+    "en": [
+     "Without a CV cable, LVL is a plain volume control",
+     "Patching an individual output removes that channel from the sum",
+     "Works with audio and control voltages"
+    ]
+   },
+   "leds": [
+    {
+     "x": 15.4,
+     "y": 14.81,
+     "d": 5.93
+    },
+    {
+     "x": 38.47,
+     "y": 14.81,
+     "d": 5.93
+    },
+    {
+     "x": 61.53,
+     "y": 14.81,
+     "d": 5.93
+    },
+    {
+     "x": 84.6,
+     "y": 14.81,
+     "d": 5.93
+    }
+   ],
+   "facts": {
+    "kit": true,
+    "assembled": true,
+    "panel": "A3_Panel_V0_12",
+    "hp": 12,
+    "width_mm": 60.7,
+    "jacks": 13,
+    "knobs": 5,
+    "switches": 0,
+    "powered": true
+   },
+   "img": {
+    "front": {
+     "src": "img/a3-front.webp?v=6b0164e7",
+     "w": 708,
+     "h": 1500
+    },
+    "view3d": {
+     "src": "img/a3-3d.webp?v=6b016514",
+     "w": 1232,
+     "h": 1127
+    }
+   },
+   "model": {
+    "src": "models/a3.glb?v=6b016515",
+    "mb": 0.9
+   },
+   "variants": [
+    {
+     "key": "kit",
+     "img": {
+      "src": "img/a3-kit-3d.webp?v=6b016541",
+      "w": 1232,
+      "h": 1166
+     },
+     "model": {
+      "src": "models/a3-kit.glb?v=6b016543",
+      "mb": 1.9
+     }
+    }
+   ],
+   "schematics": [
+    {
+     "kind": "main",
+     "part": "",
+     "src": "schematics/A3_Quad_VCA_Schematic.pdf",
+     "kb": 312
+    },
+    {
+     "kind": "kit",
+     "part": "",
+     "src": "schematics/A3_Kit_Gesamt_Schematic.pdf",
+     "kb": 314
+    }
+   ],
+   "slug": "a3-quad-vca-mixer"
+  },
+  {
+   "id": "A4",
+   "folder": "004_A4_ADSR_Envelope_Generator",
+   "cat": "modulation",
+   "name": {
+    "de": "ADSR",
+    "en": "ADSR"
+   },
+   "tag": {
+    "de": "Hüllkurve mit drei Modi",
+    "en": "Envelope generator with three modes"
+   },
+   "text": {
+    "de": "Hüllkurvengenerator mit Attack, Decay, Sustain und Release. Der CV-Eingang steuert wahlweise den Sustain-Pegel oder alle Zeiten.",
+    "en": "Envelope generator with attack, decay, sustain and release. The CV input controls either the sustain level or all time settings."
+   },
+   "feat": {
+    "de": [
+     "Zeiten von ca. 1 ms bis 25 s",
+     "Modi LOOP, ADSR und AR",
+     "Ausgang 0 … 8 V"
+    ],
+    "en": [
+     "Times from about 1 ms to 25 s",
+     "LOOP, ADSR and AR modes",
+     "Output 0 … 8 V"
+    ]
+   },
+   "leds": [
+    {
+     "x": 50.0,
+     "y": 61.08,
+     "d": 8.91
+    }
+   ],
+   "facts": {
+    "kit": true,
+    "assembled": true,
+    "panel": "A4_Panel_V0_16",
+    "hp": 8,
+    "width_mm": 40.4,
+    "jacks": 6,
+    "knobs": 4,
+    "switches": 2,
+    "powered": true
+   },
+   "img": {
+    "front": {
+     "src": "img/a4-front.webp?v=6b016571",
+     "w": 470,
+     "h": 1500
+    },
+    "view3d": {
+     "src": "img/a4-3d.webp?v=6b016594",
+     "w": 1032,
+     "h": 1046
+    }
+   },
+   "model": {
+    "src": "models/a4.glb?v=6b016595",
+    "mb": 0.8
+   },
+   "variants": [
+    {
+     "key": "kit",
+     "img": {
+      "src": "img/a4-kit-3d.webp?v=6b0165b5",
+      "w": 1032,
+      "h": 1111
+     },
+     "model": {
+      "src": "models/a4-kit.glb?v=6b0165b6",
+      "mb": 1.9
+     }
+    }
+   ],
+   "schematics": [
+    {
+     "kind": "main",
+     "part": "",
+     "src": "schematics/A4_ADSR_Schematic.pdf",
+     "kb": 325
+    },
+    {
+     "kind": "kit",
+     "part": "",
+     "src": "schematics/A4_Kit_Gesamt_Schematic.pdf",
+     "kb": 328
+    }
+   ],
+   "slug": "a4-adsr"
+  },
+  {
+   "id": "A5",
+   "folder": "005_A5_VCF",
+   "cat": "filter",
+   "name": {
+    "de": "VCF",
+    "en": "VCF"
+   },
+   "tag": {
+    "de": "Tiefpassfilter mit 24 dB/Oktave",
+    "en": "24 dB/octave low-pass filter"
+   },
+   "text": {
+    "de": "Spannungsgesteuerter Tiefpass mit vier Polen. Die Resonanz reicht bis zur Selbstoszillation und lässt sich per CV steuern.",
+    "en": "Voltage-controlled four-pole low-pass. Resonance goes all the way into self-oscillation and can be controlled by CV."
+   },
+   "feat": {
+    "de": [
+     "Grenzfrequenz ca. 20 Hz … 20 kHz",
+     "Schalter BASS: Pegel und Bass bleiben bei hoher Resonanz erhalten",
+     "CV-Eingang mit Attenuverter"
+    ],
+    "en": [
+     "Cutoff from about 20 Hz to 20 kHz",
+     "BASS switch keeps level and low end at high resonance",
+     "CV input with attenuverter"
+    ]
+   },
+   "leds": [
+    {
+     "x": 50.0,
+     "y": 29.98,
+     "d": 7.11
+    }
+   ],
+   "facts": {
+    "kit": true,
+    "assembled": true,
+    "panel": "A5_Panel_V0_16",
+    "hp": 10,
+    "width_mm": 50.6,
+    "jacks": 4,
+    "knobs": 4,
+    "switches": 1,
+    "powered": true
+   },
+   "img": {
+    "front": {
+     "src": "img/a5-front.webp?v=6b0165e0",
+     "w": 589,
+     "h": 1500
+    },
+    "view3d": {
+     "src": "img/a5-3d.webp?v=6b0165fd",
+     "w": 1133,
+     "h": 1075
+    }
+   },
+   "model": {
+    "src": "models/a5.glb?v=6b0165fe",
+    "mb": 0.8
+   },
+   "variants": [
+    {
+     "key": "kit",
+     "img": {
+      "src": "img/a5-kit-3d.webp?v=6b01661c",
+      "w": 1133,
+      "h": 1123
+     },
+     "model": {
+      "src": "models/a5-kit.glb?v=6b01661e",
+      "mb": 1.7
+     }
+    }
+   ],
+   "schematics": [
+    {
+     "kind": "main",
+     "part": "",
+     "src": "schematics/A5_VCF_Schematic.pdf",
+     "kb": 307
+    },
+    {
+     "kind": "kit",
+     "part": "",
+     "src": "schematics/A5_Kit_Gesamt_Schematic.pdf",
+     "kb": 310
+    }
+   ],
+   "slug": "a5-vcf"
+  },
+  {
+   "id": "A6",
+   "folder": "006_A6_VCO",
+   "cat": "source",
+   "name": {
+    "de": "VCO",
+    "en": "VCO"
+   },
+   "tag": {
+    "de": "Analoger Oszillator mit vier Wellenformen",
+    "en": "Analogue oscillator with four waveforms"
+   },
+   "text": {
+    "de": "Analoger Oszillator mit 1-V/Okt-Steuerung. Dreieck, Sägezahn, Rechteck und Sinus liegen gleichzeitig an eigenen Ausgängen an.",
+    "en": "Analogue oscillator with 1 V/oct tracking. Triangle, saw, square and sine are available at the same time, each on its own output."
+   },
+   "feat": {
+    "de": [
+     "Grobstimmung über ca. 8 Oktaven, Feinstimmung ± 1 Halbton",
+     "Lineare FM, Pulsbreitenmodulation und Hard Sync",
+     "Temperaturkompensierter Exponentialwandler"
+    ],
+    "en": [
+     "Coarse tuning over about 8 octaves, fine tuning ± 1 semitone",
+     "Linear FM, pulse-width modulation and hard sync",
+     "Temperature-compensated exponential converter"
+    ]
+   },
+   "leds": [],
+   "facts": {
+    "kit": true,
+    "assembled": true,
+    "panel": "A6_Panel_V0_14",
+    "hp": 10,
+    "width_mm": 50.6,
+    "jacks": 8,
+    "knobs": 5,
+    "switches": 0,
+    "powered": true
+   },
+   "img": {
+    "front": {
+     "src": "img/a6-front.webp?v=6afe2df0",
+     "w": 589,
+     "h": 1500
+    },
+    "view3d": {
+     "src": "img/a6-3d.webp?v=6afe2e13",
+     "w": 1133,
+     "h": 1076
+    }
+   },
+   "model": {
+    "src": "models/a6.glb?v=6b007309",
+    "mb": 0.7
+   },
+   "variants": [
+    {
+     "key": "kit",
+     "img": {
+      "src": "img/a6-kit-3d.webp?v=6b016641",
+      "w": 1133,
+      "h": 1116
+     },
+     "model": {
+      "src": "models/a6-kit.glb?v=6b016643",
+      "mb": 1.5
+     }
+    }
+   ],
+   "schematics": [
+    {
+     "kind": "main",
+     "part": "",
+     "src": "schematics/A6_VCO_Schematic.pdf",
+     "kb": 257
+    },
+    {
+     "kind": "kit",
+     "part": "",
+     "src": "schematics/A6_Kit_Schematic.pdf",
+     "kb": 259
+    }
+   ],
+   "slug": "a6-vco"
+  },
+  {
+   "id": "A7",
+   "folder": "007_A7_Noise_Generator",
+   "cat": "source",
+   "name": {
+    "de": "Noise",
+    "en": "Noise"
+   },
+   "tag": {
+    "de": "Analoges Rauschen mit Klangfarbe",
+    "en": "Analogue noise with tone control"
+   },
+   "text": {
+    "de": "Erzeugt weißes Rauschen und einen zweiten Ausgang mit einstellbarer Klangfarbe, von dunklem Rumpeln bis hellem Zischen.",
+    "en": "Generates white noise plus a second output with adjustable colour, from dark rumble to bright hiss."
+   },
+   "feat": {
+    "de": [
+     "COLOR auch per CV steuerbar",
+     "Klangquelle für Snare, Wind und Meer",
+     "Langsam gefiltert als Zufallsquelle nutzbar"
+    ],
+    "en": [
+     "COLOR can be controlled by CV",
+     "Sound source for snares, wind and surf",
+     "Slowly filtered, it doubles as a random source"
+    ]
+   },
+   "leds": [
+    {
+     "x": 79.85,
+     "y": 48.64,
+     "d": 17.91
+    }
+   ],
+   "facts": {
+    "kit": true,
+    "assembled": true,
+    "panel": "A7_Panel_V0_16",
+    "hp": 4,
+    "width_mm": 20.1,
+    "jacks": 3,
+    "knobs": 2,
+    "switches": 0,
+    "powered": true
+   },
+   "img": {
+    "front": {
+     "src": "img/a7-front.webp?v=6b01665b",
+     "w": 233,
+     "h": 1500
+    },
+    "view3d": {
+     "src": "img/a7-3d.webp?v=6b016672",
+     "w": 831,
+     "h": 968
+    }
+   },
+   "model": {
+    "src": "models/a7.glb?v=6b016673",
+    "mb": 0.5
+   },
+   "variants": [
+    {
+     "key": "kit",
+     "img": {
+      "src": "img/a7-kit-3d.webp?v=6b016689",
+      "w": 830,
+      "h": 1102
+     },
+     "model": {
+      "src": "models/a7-kit.glb?v=6b01668a",
+      "mb": 1.4
+     }
+    }
+   ],
+   "schematics": [
+    {
+     "kind": "main",
+     "part": "",
+     "src": "schematics/A7_Noise_Schematic.pdf",
+     "kb": 255
+    },
+    {
+     "kind": "kit",
+     "part": "",
+     "src": "schematics/A7_Kit_Gesamt_Schematic.pdf",
+     "kb": 257
+    }
+   ],
+   "slug": "a7-noise"
+  },
+  {
+   "id": "A8",
+   "folder": "008_A8_Sample_Hold",
+   "cat": "modulation",
+   "name": {
+    "de": "Sample & Hold",
+    "en": "Sample & Hold"
+   },
+   "tag": {
+    "de": "Abtasten, halten, glätten",
+    "en": "Sample, hold and smooth"
+   },
+   "text": {
+    "de": "Tastet eine Spannung bei jedem Trigger ab und hält sie fest. Ohne Eingangssignal tastet das Modul ein internes Rauschen ab und liefert Zufallsspannungen.",
+    "en": "Samples a voltage on every trigger and holds it. With no input patched it samples internal noise and produces random voltages."
+   },
+   "feat": {
+    "de": [
+     "Umschaltbar zwischen Sample & Hold und Track & Hold",
+     "SLEW glättet die Stufen bis ca. 1 s",
+     "Internes Rauschen als Quelle"
+    ],
+    "en": [
+     "Switchable between sample & hold and track & hold",
+     "SLEW smooths the steps up to about 1 s",
+     "Internal noise as a source"
+    ]
+   },
+   "leds": [
+    {
+     "x": 73.26,
+     "y": 64.19,
+     "d": 11.96
+    },
+    {
+     "x": 80.73,
+     "y": 84.41,
+     "d": 11.96
+    }
+   ],
+   "facts": {
+    "kit": true,
+    "assembled": true,
+    "panel": "A8_Panel_V0_15",
+    "hp": 6,
+    "width_mm": 30.1,
+    "jacks": 3,
+    "knobs": 1,
+    "switches": 1,
+    "powered": true
+   },
+   "img": {
+    "front": {
+     "src": "img/a8-front.webp?v=6b0166a3",
+     "w": 350,
+     "h": 1500
+    },
+    "view3d": {
+     "src": "img/a8-3d.webp?v=6b0166b9",
+     "w": 930,
+     "h": 987
+    }
+   },
+   "model": {
+    "src": "models/a8.glb?v=6b0166ba",
+    "mb": 0.5
+   },
+   "variants": [
+    {
+     "key": "kit",
+     "img": {
+      "src": "img/a8-kit-3d.webp?v=6b0166ce",
+      "w": 930,
+      "h": 1035
+     },
+     "model": {
+      "src": "models/a8-kit.glb?v=6b0166cf",
+      "mb": 1.0
+     }
+    }
+   ],
+   "schematics": [
+    {
+     "kind": "main",
+     "part": "",
+     "src": "schematics/A8_SampleHold_Schematic.pdf",
+     "kb": 198
+    },
+    {
+     "kind": "kit",
+     "part": "",
+     "src": "schematics/A8_Kit_Gesamt_Schematic.pdf",
+     "kb": 199
+    }
+   ],
+   "slug": "a8-sample-hold"
+  },
+  {
+   "id": "A9",
+   "folder": "009_A9_Ring_Modulator",
+   "cat": "filter",
+   "name": {
+    "de": "Ring Modulator",
+    "en": "Ring Modulator"
+   },
+   "tag": {
+    "de": "Metallische Klänge aus zwei Signalen",
+    "en": "Metallic tones from two signals"
+   },
+   "text": {
+    "de": "Multipliziert Träger und Modulator. Statt der beiden Töne hört man ihre Summen- und Differenzfrequenzen: metallisch, glockenartig oder nach Roboterstimme.",
+    "en": "Multiplies carrier and modulator. Instead of the two tones you hear their sum and difference frequencies: metallic, bell-like or robotic."
+   },
+   "feat": {
+    "de": [
+     "DEPTH blendet vom Träger zur reinen Ringmodulation",
+     "Schalter AM / MIX bestimmt den Charakter des Regelwegs",
+     "DEPTH per CV steuerbar"
+    ],
+    "en": [
+     "DEPTH fades from the carrier to pure ring modulation",
+     "AM / MIX switch sets the character of the control range",
+     "DEPTH is CV controllable"
+    ]
+   },
+   "leds": [],
+   "facts": {
+    "kit": true,
+    "assembled": true,
+    "panel": "A9_Panel_V0_12",
+    "hp": 4,
+    "width_mm": 20.1,
+    "jacks": 4,
+    "knobs": 1,
+    "switches": 1,
+    "powered": true
+   },
+   "img": {
+    "front": {
+     "src": "img/a9-front.webp?v=6afe2e8c",
+     "w": 233,
+     "h": 1500
+    },
+    "view3d": {
+     "src": "img/a9-3d.webp?v=6afe2ea2",
+     "w": 831,
+     "h": 968
+    }
+   },
+   "model": {
+    "src": "models/a9.glb?v=6b007309",
+    "mb": 0.5
+   },
+   "variants": [
+    {
+     "key": "kit",
+     "img": {
+      "src": "img/a9-kit-3d.webp?v=6b0166e5",
+      "w": 830,
+      "h": 1115
+     },
+     "model": {
+      "src": "models/a9-kit.glb?v=6b0166e6",
+      "mb": 1.1
+     }
+    }
+   ],
+   "schematics": [
+    {
+     "kind": "main",
+     "part": "",
+     "src": "schematics/A9_RingMod_Schematic.pdf",
+     "kb": 237
+    },
+    {
+     "kind": "kit",
+     "part": "",
+     "src": "schematics/A9_Kit_Gesamt_Schematic.pdf",
+     "kb": 239
+    }
+   ],
+   "slug": "a9-ring-modulator"
+  },
+  {
+   "id": "A10",
+   "folder": "010_A10_Slew_Limiter",
+   "cat": "modulation",
+   "name": {
+    "de": "Slew Limiter",
+    "en": "Slew Limiter"
+   },
+   "tag": {
+    "de": "Portamento und einfache Hüllkurven",
+    "en": "Portamento and simple envelopes"
+   },
+   "text": {
+    "de": "Begrenzt, wie schnell sich eine Spannung ändert: Aus einem Sprung wird eine Rampe. Steigende und fallende Flanken haben getrennte Regler.",
+    "en": "Limits how fast a voltage can change, turning a step into a ramp. Rising and falling edges have separate controls."
+   },
+   "feat": {
+    "de": [
+     "Zeiten von ca. 1 ms bis 10 s",
+     "Macht aus einem Gate eine Attack-Release-Hüllkurve",
+     "Glättet Zufallsspannungen und Sequencer-Stufen"
+    ],
+    "en": [
+     "Times from about 1 ms to 10 s",
+     "Turns a gate into an attack-release envelope",
+     "Smooths random voltages and sequencer steps"
+    ]
+   },
+   "leds": [
+    {
+     "x": 50.0,
+     "y": 43.58,
+     "d": 17.91
+    }
+   ],
+   "facts": {
+    "kit": true,
+    "assembled": true,
+    "panel": "A10_Panel_V0_12",
+    "hp": 4,
+    "width_mm": 20.1,
+    "jacks": 4,
+    "knobs": 2,
+    "switches": 0,
+    "powered": true
+   },
+   "img": {
+    "front": {
+     "src": "img/a10-front.webp?v=6b0166fb",
+     "w": 233,
+     "h": 1500
+    },
+    "view3d": {
+     "src": "img/a10-3d.webp?v=6b016710",
+     "w": 830,
+     "h": 968
+    }
+   },
+   "model": {
+    "src": "models/a10.glb?v=6b016711",
+    "mb": 0.4
+   },
+   "variants": [
+    {
+     "key": "kit",
+     "img": {
+      "src": "img/a10-kit-3d.webp?v=6b01672c",
+      "w": 830,
+      "h": 1102
+     },
+     "model": {
+      "src": "models/a10-kit.glb?v=6b01672e",
+      "mb": 1.1
+     }
+    }
+   ],
+   "schematics": [
+    {
+     "kind": "main",
+     "part": "",
+     "src": "schematics/A10_Slew_Schematic.pdf",
+     "kb": 220
+    },
+    {
+     "kind": "kit",
+     "part": "",
+     "src": "schematics/A10_Kit_Gesamt_Schematic.pdf",
+     "kb": 222
+    }
+   ],
+   "slug": "a10-slew-limiter"
+  },
+  {
+   "id": "A11",
+   "folder": "011_A11_Comparator_Logic",
+   "cat": "utility",
+   "name": {
+    "de": "Comparator / Logic",
+    "en": "Comparator / Logic"
+   },
+   "tag": {
+    "de": "Aus Spannungen werden Gates",
+    "en": "Turns voltages into gates"
+   },
+   "text": {
+    "de": "Zwei Komparatoren machen aus beliebigen Spannungen Gates, drei Logikgatter verknüpfen sie mit UND, ODER und Entweder-oder.",
+    "en": "Two comparators turn any voltage into a gate, and three logic gates combine them with AND, OR and XOR."
+   },
+   "feat": {
+    "de": [
+     "Schwelle je Komparator einstellbar",
+     "Rhythmen aus zwei Takten kombinieren",
+     "Gate-Ausgänge mit +10 V"
+    ],
+    "en": [
+     "Adjustable threshold per comparator",
+     "Combine rhythms from two clocks",
+     "Gate outputs at +10 V"
+    ]
+   },
+   "leds": [
+    {
+     "x": 13.46,
+     "y": 28.81,
+     "d": 11.96
+    },
+    {
+     "x": 31.73,
+     "y": 28.81,
+     "d": 11.96
+    },
+    {
+     "x": 50.0,
+     "y": 28.81,
+     "d": 11.96
+    },
+    {
+     "x": 68.27,
+     "y": 28.81,
+     "d": 11.96
+    },
+    {
+     "x": 86.54,
+     "y": 28.81,
+     "d": 11.96
+    }
+   ],
+   "facts": {
+    "kit": true,
+    "assembled": true,
+    "panel": "A11_Panel_V0_11",
+    "hp": 6,
+    "width_mm": 30.1,
+    "jacks": 9,
+    "knobs": 2,
+    "switches": 0,
+    "powered": true
+   },
+   "img": {
+    "front": {
+     "src": "img/a11-front.webp?v=6b01675d",
+     "w": 350,
+     "h": 1500
+    },
+    "view3d": {
+     "src": "img/a11-3d.webp?v=6b01677d",
+     "w": 930,
+     "h": 1011
+    }
+   },
+   "model": {
+    "src": "models/a11.glb?v=6b01677e",
+    "mb": 0.6
+   },
+   "variants": [
+    {
+     "key": "kit",
+     "img": {
+      "src": "img/a11-kit-3d.webp?v=6b01679c",
+      "w": 930,
+      "h": 1059
+     },
+     "model": {
+      "src": "models/a11-kit.glb?v=6b01679d",
+      "mb": 1.3
+     }
+    }
+   ],
+   "schematics": [
+    {
+     "kind": "main",
+     "part": "",
+     "src": "schematics/A11_CompLogic_Schematic.pdf",
+     "kb": 240
+    },
+    {
+     "kind": "kit",
+     "part": "",
+     "src": "schematics/A11_Kit_Gesamt_Schematic.pdf",
+     "kb": 240
+    }
+   ],
+   "slug": "a11-comparator-logic"
+  },
+  {
+   "id": "A12",
+   "folder": "012_A12_Clock_Divider",
+   "cat": "sequencing",
+   "name": {
+    "de": "Clock Divider",
+    "en": "Clock Divider"
+   },
+   "tag": {
+    "de": "Takt teilen und vervielfachen",
+    "en": "Divide and multiply a clock"
+   },
+   "text": {
+    "de": "Macht aus einem Takt vier weitere: langsamere als Teiler oder schnellere als Multiplikator. So laufen Sequencer, Hüllkurven und Effekte im festen Verhältnis.",
+    "en": "Derives four more clocks from one: slower as a divider, faster as a multiplier. Sequencers, envelopes and effects then run in fixed ratios."
+   },
+   "feat": {
+    "de": [
+     "Verhältnisse 2, 3, 4 und 8",
+     "Umschalter MULT / DIV",
+     "Reset-Eingang"
+    ],
+    "en": [
+     "Ratios of 2, 3, 4 and 8",
+     "MULT / DIV switch",
+     "Reset input"
+    ]
+   },
+   "leds": [
+    {
+     "x": 26.74,
+     "y": 39.31,
+     "d": 11.96
+    },
+    {
+     "x": 73.26,
+     "y": 39.31,
+     "d": 11.96
+    },
+    {
+     "x": 26.74,
+     "y": 47.08,
+     "d": 11.96
+    },
+    {
+     "x": 73.26,
+     "y": 47.08,
+     "d": 11.96
+    },
+    {
+     "x": 50.0,
+     "y": 52.53,
+     "d": 11.96
+    }
+   ],
+   "facts": {
+    "kit": true,
+    "assembled": true,
+    "panel": "A12_Panel_V0_12",
+    "hp": 6,
+    "width_mm": 30.1,
+    "jacks": 6,
+    "knobs": 0,
+    "switches": 1,
+    "powered": true
+   },
+   "img": {
+    "front": {
+     "src": "img/a12-front.webp?v=6b0167bf",
+     "w": 350,
+     "h": 1500
+    },
+    "view3d": {
+     "src": "img/a12-3d.webp?v=6b0167de",
+     "w": 930,
+     "h": 987
+    }
+   },
+   "model": {
+    "src": "models/a12.glb?v=6b0167df",
+    "mb": 0.5
+   },
+   "variants": [
+    {
+     "key": "kit",
+     "img": {
+      "src": "img/a12-kit-3d.webp?v=6b016804",
+      "w": 930,
+      "h": 1028
+     },
+     "model": {
+      "src": "models/a12-kit.glb?v=6b016805",
+      "mb": 1.1
+     }
+    }
+   ],
+   "schematics": [
+    {
+     "kind": "main",
+     "part": "",
+     "src": "schematics/A12_ClockDiv_Schematic.pdf",
+     "kb": 204
+    },
+    {
+     "kind": "kit",
+     "part": "",
+     "src": "schematics/A12_Kit_Gesamt_Schematic.pdf",
+     "kb": 205
+    }
+   ],
+   "slug": "a12-clock-divider"
+  },
+  {
+   "id": "A13",
+   "folder": "033_A13_Precision_Adder",
+   "cat": "utility",
+   "name": {
+    "de": "Precision Adder",
+    "en": "Precision Adder"
+   },
+   "tag": {
+    "de": "Tonhöhen exakt addieren",
+    "en": "Add pitch voltages precisely"
+   },
+   "text": {
+    "de": "Addiert bis zu vier Spannungen exakt und gibt die Summe normal und invertiert aus. Gedacht für Tonhöhen: Sequencer plus Oktave plus Transposition ergibt genau die richtige Note.",
+    "en": "Adds up to four voltages precisely and outputs the sum both normal and inverted. Made for pitch: sequencer plus octave plus transposition lands exactly on the right note."
+   },
+   "feat": {
+    "de": [
+     "Präzisionswiderstände 0,02 %",
+     "Oktavschalter und Oktav-CV",
+     "OFFSET-Regler"
+    ],
+    "en": [
+     "0.02 % precision resistors",
+     "Octave switch and octave CV",
+     "OFFSET control"
+    ]
+   },
+   "leds": [
+    {
+     "x": 50.0,
+     "y": 73.52,
+     "d": 11.96
+    }
+   ],
+   "facts": {
+    "kit": true,
+    "assembled": true,
+    "panel": "A13_Panel_V0_8",
+    "hp": 6,
+    "width_mm": 30.1,
+    "jacks": 7,
+    "knobs": 1,
+    "switches": 1,
+    "powered": true
+   },
+   "img": {
+    "front": {
+     "src": "img/a13-front.webp?v=6b016829",
+     "w": 350,
+     "h": 1500
+    },
+    "view3d": {
+     "src": "img/a13-3d.webp?v=6b016856",
+     "w": 930,
+     "h": 987
+    }
+   },
+   "model": {
+    "src": "models/a13.glb?v=6b016857",
+    "mb": 0.6
+   },
+   "variants": [
+    {
+     "key": "kit",
+     "img": {
+      "src": "img/a13-kit-3d.webp?v=6b016884",
+      "w": 930,
+      "h": 1035
+     },
+     "model": {
+      "src": "models/a13-kit.glb?v=6b016887",
+      "mb": 1.3
+     }
+    }
+   ],
+   "schematics": [
+    {
+     "kind": "main",
+     "part": "",
+     "src": "schematics/A13_Adder_Schematic.pdf",
+     "kb": 235
+    },
+    {
+     "kind": "kit",
+     "part": "",
+     "src": "schematics/A13_Kit_Gesamt_Schematic.pdf",
+     "kb": 237
+    }
+   ],
+   "slug": "a13-precision-adder"
+  },
+  {
+   "id": "A16",
+   "folder": "034_A16_Audio_IO",
+   "cat": "io",
+   "name": {
+    "de": "Audio I/O",
+    "en": "Audio I/O"
+   },
+   "tag": {
+    "de": "Verbindet das Rack mit der Außenwelt",
+    "en": "Connects the rack to the outside world"
+   },
+   "text": {
+    "de": "Holt Instrumente und Line-Quellen auf Eurorack-Pegel, gewinnt daraus Hüllkurve und Gate und treibt einen Kopfhörer.",
+    "en": "Brings instruments and line sources up to Eurorack level, derives an envelope and a gate from them, and drives headphones."
+   },
+   "feat": {
+    "de": [
+     "Eingang mit 6,3-mm-Klinke",
+     "Envelope Follower mit Gate-Ausgang",
+     "Kopfhörerverstärker"
+    ],
+    "en": [
+     "Input on a 6.3 mm jack",
+     "Envelope follower with gate output",
+     "Headphone amplifier"
+    ]
+   },
+   "leds": [
+    {
+     "x": 81.31,
+     "y": 33.09,
+     "d": 8.91
+    },
+    {
+     "x": 18.69,
+     "y": 58.75,
+     "d": 8.91
+    }
+   ],
+   "facts": {
+    "kit": false,
+    "assembled": true,
+    "panel": "A16_Panel_V0_4",
+    "hp": 8,
+    "width_mm": 40.4,
+    "jacks": 10,
+    "knobs": 3,
+    "switches": 0,
+    "powered": true
+   },
+   "img": {
+    "front": {
+     "src": "img/a16-front.webp?v=6b0168dd",
+     "w": 470,
+     "h": 1500
+    },
+    "view3d": {
+     "src": "img/a16-3d.webp?v=6b016912",
+     "w": 1032,
+     "h": 1054
+    }
+   },
+   "model": {
+    "src": "models/a16.glb?v=6b016914",
+    "mb": 0.9
+   },
+   "variants": [],
+   "schematics": [
+    {
+     "kind": "main",
+     "part": "",
+     "src": "schematics/A16_Audio_IO_Schematic.pdf",
+     "kb": 325
+    },
+    {
+     "kind": "main",
+     "part": "traeger",
+     "src": "schematics/A16_Audio_IO_Traeger_Schematic.pdf",
+     "kb": 66
+    }
+   ],
+   "slug": "a16-audio-i-o"
+  },
+  {
+   "id": "P1",
+   "folder": "013_P1_4x_Multiple",
+   "cat": "utility",
+   "name": {
+    "de": "4x Multiple",
+    "en": "4x Multiple"
+   },
+   "tag": {
+    "de": "Ein Signal, vier Ziele",
+    "en": "One signal, four destinations"
+   },
+   "text": {
+    "de": "Verteilt ein Signal vom Eingang auf vier Ausgänge. Funktioniert mit CV, Gate und Audio.",
+    "en": "Distributes one input signal to four outputs. Works with CV, gates and audio."
+   },
+   "feat": {
+    "de": [
+     "Passiv, braucht keinen Strom",
+     "Alle Buchsen direkt verbunden"
+    ],
+    "en": [
+     "Passive, needs no power",
+     "All jacks wired directly together"
+    ]
+   },
+   "leds": [],
+   "facts": {
+    "kit": false,
+    "assembled": true,
+    "panel": "P1_Panel_V0_10",
+    "hp": 4,
+    "width_mm": 20.1,
+    "jacks": 5,
+    "knobs": 0,
+    "switches": 0,
+    "powered": false
+   },
+   "img": {
+    "front": {
+     "src": "img/p1-front.webp?v=6afe304f",
+     "w": 233,
+     "h": 1500
+    },
+    "view3d": {
+     "src": "img/p1-3d.webp?v=6afe3070",
+     "w": 831,
+     "h": 950
+    }
+   },
+   "model": {
+    "src": "models/p1.glb?v=6b00730a",
+    "mb": 0.2
+   },
+   "variants": [],
+   "schematics": [
+    {
+     "kind": "main",
+     "part": "",
+     "src": "schematics/P1_Multiple_Schematic.pdf",
+     "kb": 60
+    }
+   ],
+   "slug": "p1-4x-multiple"
+  },
+  {
+   "id": "P2",
+   "folder": "014_P2_8x_Multiple",
+   "cat": "utility",
+   "name": {
+    "de": "8x Multiple",
+    "en": "8x Multiple"
+   },
+   "tag": {
+    "de": "Zwei Verteiler oder einer für acht",
+    "en": "Two splitters, or one for eight"
+   },
+   "text": {
+    "de": "Zwei Verteiler mit je vier Ausgängen. Bleibt der zweite Eingang frei, verteilt das Modul ein Signal auf alle acht Ausgänge.",
+    "en": "Two splitters with four outputs each. Leave the second input empty and one signal goes to all eight outputs."
+   },
+   "feat": {
+    "de": [
+     "Passiv, braucht keinen Strom",
+     "IN 2 auf IN 1 normalisiert"
+    ],
+    "en": [
+     "Passive, needs no power",
+     "IN 2 normalled to IN 1"
+    ]
+   },
+   "leds": [],
+   "facts": {
+    "kit": false,
+    "assembled": true,
+    "panel": "P2_Panel_V0_9",
+    "hp": 8,
+    "width_mm": 40.4,
+    "jacks": 10,
+    "knobs": 0,
+    "switches": 0,
+    "powered": false
+   },
+   "img": {
+    "front": {
+     "src": "img/p2-front.webp?v=6afe30b3",
+     "w": 470,
+     "h": 1500
+    },
+    "view3d": {
+     "src": "img/p2-3d.webp?v=6afe30e9",
+     "w": 1032,
+     "h": 1026
+    }
+   },
+   "model": {
+    "src": "models/p2.glb?v=6b00730a",
+    "mb": 0.3
+   },
+   "variants": [],
+   "schematics": [
+    {
+     "kind": "main",
+     "part": "",
+     "src": "schematics/P2_Multiple_Schematic.pdf",
+     "kb": 75
+    }
+   ],
+   "slug": "p2-8x-multiple"
+  },
+  {
+   "id": "P3",
+   "folder": "015_P3_Mute_Switch",
+   "cat": "utility",
+   "name": {
+    "de": "Mute / Switch",
+    "en": "Mute / Switch"
+   },
+   "tag": {
+    "de": "Vier Umschalter für alles",
+    "en": "Four switches for any signal"
+   },
+   "text": {
+    "de": "Vier Kanäle mit je zwei Eingängen, einem Kippschalter und einem Ausgang. Der Schalter wählt den Eingang; ein freier Eingang bedeutet Stille.",
+    "en": "Four channels, each with two inputs, a toggle switch and an output. The switch selects the input; an unpatched input means silence."
+   },
+   "feat": {
+    "de": [
+     "Als Mute oder als A/B-Umschalter",
+     "Für Audio, CV, Gates und Tonhöhe",
+     "Passiv, braucht keinen Strom"
+    ],
+    "en": [
+     "Use as mute or as A/B selector",
+     "For audio, CV, gates and pitch",
+     "Passive, needs no power"
+    ]
+   },
+   "leds": [],
+   "facts": {
+    "kit": true,
+    "assembled": false,
+    "panel": "P3_Panel_V0_6",
+    "hp": 8,
+    "width_mm": 40.4,
+    "jacks": 12,
+    "knobs": 0,
+    "switches": 4,
+    "powered": false
+   },
+   "img": {
+    "front": {
+     "src": "img/p3-front.webp?v=6afe3138",
+     "w": 470,
+     "h": 1500
+    },
+    "view3d": {
+     "src": "img/p3-3d.webp?v=6afe3168",
+     "w": 1032,
+     "h": 1026
+    }
+   },
+   "model": {
+    "src": "models/p3.glb?v=6b00730a",
+    "mb": 0.4
+   },
+   "variants": [],
+   "schematics": [
+    {
+     "kind": "kit",
+     "part": "",
+     "src": "schematics/P3_Mute_THT_Schematic.pdf",
+     "kb": 93
+    }
+   ],
+   "slug": "p3-mute-switch"
+  },
+  {
+   "id": "P4",
+   "folder": "016_P4_Attenuator_Passiv",
+   "cat": "utility",
+   "name": {
+    "de": "Attenuator",
+    "en": "Attenuator"
+   },
+   "tag": {
+    "de": "Vier passive Abschwächer",
+    "en": "Four passive attenuators"
+   },
+   "text": {
+    "de": "Vier Regler stellen ein, wie viel vom Eingangssignal den Ausgang erreicht. Freie Eingänge übernehmen das Signal des Kanals darüber.",
+    "en": "Four controls set how much of the input reaches the output. Unpatched inputs take the signal from the channel above."
+   },
+   "feat": {
+    "de": [
+     "Ein Signal ergibt vier unabhängige Pegel",
+     "Passiv, braucht keinen Strom"
+    ],
+    "en": [
+     "One signal gives four independent levels",
+     "Passive, needs no power"
+    ]
+   },
+   "leds": [],
+   "facts": {
+    "kit": false,
+    "assembled": true,
+    "panel": "P4_Panel_V0_10",
+    "hp": 6,
+    "width_mm": 30.1,
+    "jacks": 8,
+    "knobs": 4,
+    "switches": 0,
+    "powered": false
+   },
+   "img": {
+    "front": {
+     "src": "img/p4-front.webp?v=6afe31a1",
+     "w": 350,
+     "h": 1500
+    },
+    "view3d": {
+     "src": "img/p4-3d.webp?v=6afe31cf",
+     "w": 930,
+     "h": 1019
+    }
+   },
+   "model": {
+    "src": "models/p4.glb?v=6b00730a",
+    "mb": 0.3
+   },
+   "variants": [],
+   "schematics": [
+    {
+     "kind": "main",
+     "part": "",
+     "src": "schematics/P4_Attenuator_Schematic.pdf",
+     "kb": 89
+    }
+   ],
+   "slug": "p4-attenuator"
+  },
+  {
+   "id": "P5",
+   "folder": "017_P5_Passive_LP_HP",
+   "cat": "filter",
+   "name": {
+    "de": "Passive LP/HP",
+    "en": "Passive LP/HP"
+   },
+   "tag": {
+    "de": "Zwei sanfte Filter ohne Strom",
+    "en": "Two gentle filters, no power needed"
+   },
+   "text": {
+    "de": "Ein Tiefpass und ein Hochpass mit je 6 dB/Oktave. Einzeln nutzbar oder hintereinander als Bandpass.",
+    "en": "One low-pass and one high-pass at 6 dB/octave each. Use them separately or in series as a band-pass."
+   },
+   "feat": {
+    "de": [
+     "Tiefpass ca. 158 Hz … 16 kHz",
+     "Hochpass ca. 16 Hz … 1,6 kHz",
+     "LP-Ausgang auf HP-Eingang normalisiert"
+    ],
+    "en": [
+     "Low-pass about 158 Hz to 16 kHz",
+     "High-pass about 16 Hz to 1.6 kHz",
+     "LP output normalled to HP input"
+    ]
+   },
+   "leds": [],
+   "facts": {
+    "kit": true,
+    "assembled": false,
+    "panel": "P5_Panel_V0_11",
+    "hp": 4,
+    "width_mm": 20.1,
+    "jacks": 4,
+    "knobs": 2,
+    "switches": 0,
+    "powered": false
+   },
+   "img": {
+    "front": {
+     "src": "img/p5-front.webp?v=6afe31f1",
+     "w": 233,
+     "h": 1500
+    },
+    "view3d": {
+     "src": "img/p5-3d.webp?v=6afe320e",
+     "w": 831,
+     "h": 968
+    }
+   },
+   "model": {
+    "src": "models/p5.glb?v=6b00730a",
+    "mb": 0.2
+   },
+   "variants": [],
+   "schematics": [
+    {
+     "kind": "kit",
+     "part": "",
+     "src": "schematics/P5_LPHP_Kit_Schematic.pdf",
+     "kb": 81
+    }
+   ],
+   "slug": "p5-passive-lp-hp"
+  },
+  {
+   "id": "P6",
+   "folder": "018_P6_Output",
+   "cat": "io",
+   "name": {
+    "de": "Output",
+    "en": "Output"
+   },
+   "tag": {
+    "de": "Vom Rack zum Mischpult",
+    "en": "From the rack to the mixer"
+   },
+   "text": {
+    "de": "Schwächt den lauten Eurorack-Pegel passiv auf Line-Pegel ab und bringt ihn zu Mischpult, Audio-Interface oder Recorder.",
+    "en": "Passively attenuates hot Eurorack levels down to line level for your mixer, audio interface or recorder."
+   },
+   "feat": {
+    "de": [
+     "Stereo-Regler für beide Kanäle",
+     "2 × 6,3 mm mono und 3,5 mm stereo",
+     "Passiv, braucht keinen Strom"
+    ],
+    "en": [
+     "Stereo control for both channels",
+     "2 × 6.3 mm mono and 3.5 mm stereo",
+     "Passive, needs no power"
+    ]
+   },
+   "leds": [],
+   "facts": {
+    "kit": true,
+    "assembled": false,
+    "panel": "P6_Panel_V0_4",
+    "hp": 6,
+    "width_mm": 30.1,
+    "jacks": 5,
+    "knobs": 1,
+    "switches": 0,
+    "powered": false
+   },
+   "img": {
+    "front": {
+     "src": "img/p6-front.webp?v=6afe323a",
+     "w": 350,
+     "h": 1500
+    },
+    "view3d": {
+     "src": "img/p6-3d.webp?v=6afe3256",
+     "w": 930,
+     "h": 1046
+    }
+   },
+   "model": {
+    "src": "models/p6.glb?v=6b00730a",
+    "mb": 0.4
+   },
+   "variants": [],
+   "schematics": [
+    {
+     "kind": "kit",
+     "part": "front",
+     "src": "schematics/P6_Output_THT_Front_Schematic.pdf",
+     "kb": 89
+    },
+    {
+     "kind": "kit",
+     "part": "main",
+     "src": "schematics/P6_Output_THT_Main_Schematic.pdf",
+     "kb": 81
+    }
+   ],
+   "slug": "p6-output"
+  },
+  {
+   "id": "P7",
+   "folder": "019_P7_Passive_Mixer",
+   "cat": "utility",
+   "name": {
+    "de": "Passive Mixer",
+    "en": "Passive Mixer"
+   },
+   "tag": {
+    "de": "Zwei Mischer für je drei Signale",
+    "en": "Two mixers for three signals each"
+   },
+   "text": {
+    "de": "Zwei getrennte Mischer ohne Elektronik. Jeder mischt bis zu drei Audio- oder CV-Signale zum Mittelwert.",
+    "en": "Two separate mixers without active electronics. Each one mixes up to three audio or CV signals to their average."
+   },
+   "feat": {
+    "de": [
+     "Passiv, braucht keinen Strom",
+     "Freie Eingänge zählen als 0 V"
+    ],
+    "en": [
+     "Passive, needs no power",
+     "Unpatched inputs count as 0 V"
+    ]
+   },
+   "leds": [],
+   "facts": {
+    "kit": true,
+    "assembled": true,
+    "panel": "P7_Panel_V0_10",
+    "hp": 6,
+    "width_mm": 30.1,
+    "jacks": 8,
+    "knobs": 0,
+    "switches": 0,
+    "powered": false
+   },
+   "img": {
+    "front": {
+     "src": "img/p7-front.webp?v=6afe3273",
+     "w": 350,
+     "h": 1500
+    },
+    "view3d": {
+     "src": "img/p7-3d.webp?v=6afe328e",
+     "w": 930,
+     "h": 987
+    }
+   },
+   "model": {
+    "src": "models/p7.glb?v=6b00730a",
+    "mb": 0.2
+   },
+   "variants": [
+    {
+     "key": "kit",
+     "img": {
+      "src": "img/p7-kit-3d.webp?v=6b016941",
+      "w": 930,
+      "h": 987
+     },
+     "model": {
+      "src": "models/p7-kit.glb?v=6b016942",
+      "mb": 0.3
+     }
+    }
+   ],
+   "schematics": [
+    {
+     "kind": "main",
+     "part": "",
+     "src": "schematics/P7_Mixer_Schematic.pdf",
+     "kb": 81
+    },
+    {
+     "kind": "kit",
+     "part": "",
+     "src": "schematics/P7_Mixer_THT_Schematic.pdf",
+     "kb": 82
+    }
+   ],
+   "slug": "p7-passive-mixer"
+  },
+  {
+   "id": "P8",
+   "folder": "020_P8_Blanking_Panel",
+   "cat": "utility",
+   "name": {
+    "de": "Blanking Panel",
+    "en": "Blanking Panel"
+   },
+   "tag": {
+    "de": "Blindplatte im graeSynth-Design",
+    "en": "Blank panel in graeSynth design"
+   },
+   "text": {
+    "de": "Schließt freie Plätze im Rack und schützt die Elektronik dahinter.",
+    "en": "Covers empty space in the rack and protects the electronics behind it."
+   },
+   "feat": {
+    "de": [
+     "Passend zum Design der Module"
+    ],
+    "en": [
+     "Matches the design of the modules"
+    ]
+   },
+   "leds": [],
+   "facts": {
+    "kit": false,
+    "assembled": false,
+    "panel": "P8_BP4A_Panel_V0_8",
+    "hp": 4,
+    "width_mm": 20.1,
+    "jacks": 0,
+    "knobs": 0,
+    "switches": 0,
+    "powered": false
+   },
+   "img": {
+    "front": {
+     "src": "img/p8-front.webp?v=6afe32a0",
+     "w": 233,
+     "h": 1500
+    },
+    "view3d": {
+     "src": "img/p8-3d.webp?v=6afe32b6",
+     "w": 830,
+     "h": 950
+    }
+   },
+   "variants": [],
+   "schematics": [],
+   "slug": "p8-blanking-panel"
+  },
+  {
+   "id": "D1",
+   "folder": "021_D1_Sequencer_8Step",
+   "cat": "sequencing",
+   "name": {
+    "de": "8-Step Sequencer",
+    "en": "8-Step Sequencer"
+   },
+   "tag": {
+    "de": "Acht Schritte mit Poti, LED und Schalter",
+    "en": "Eight steps with pot, LED and switch"
+   },
+   "text": {
+    "de": "Sequencer mit acht Schritten. Jeder Schritt hat eine einstellbare Spannung, eine LED und einen Schalter; bei jedem Takt geht es einen Schritt weiter.",
+    "en": "A sequencer with eight steps. Each step has an adjustable voltage, an LED and a switch; every clock pulse advances one step."
+   },
+   "feat": {
+    "de": [
+     "CV 0 … ca. 10 V (1 V/Okt), Quantisierung per Firmware",
+     "Gate-Ausgang und Reset",
+     "Firmware per USB aktualisierbar"
+    ],
+    "en": [
+     "CV 0 to about 10 V (1 V/oct), quantising in firmware",
+     "Gate output and reset",
+     "Firmware updates over USB"
+    ]
+   },
+   "leds": [
+    {
+     "x": 15.4,
+     "y": 27.64,
+     "d": 5.93
+    },
+    {
+     "x": 38.47,
+     "y": 27.64,
+     "d": 5.93
+    },
+    {
+     "x": 61.53,
+     "y": 27.64,
+     "d": 5.93
+    },
+    {
+     "x": 84.6,
+     "y": 27.64,
+     "d": 5.93
+    },
+    {
+     "x": 15.4,
+     "y": 55.64,
+     "d": 5.93
+    },
+    {
+     "x": 38.47,
+     "y": 55.64,
+     "d": 5.93
+    },
+    {
+     "x": 61.53,
+     "y": 55.64,
+     "d": 5.93
+    },
+    {
+     "x": 84.6,
+     "y": 55.64,
+     "d": 5.93
+    }
+   ],
+   "facts": {
+    "kit": true,
+    "assembled": true,
+    "panel": "D1_Panel_V0_14",
+    "hp": 12,
+    "width_mm": 60.7,
+    "jacks": 6,
+    "knobs": 10,
+    "switches": 8,
+    "powered": true
+   },
+   "img": {
+    "front": {
+     "src": "img/d1-front.webp?v=6b0169b8",
+     "w": 708,
+     "h": 1500
+    },
+    "view3d": {
+     "src": "img/d1-3d.webp?v=6b016a08",
+     "w": 1232,
+     "h": 1172
+    }
+   },
+   "model": {
+    "src": "models/d1.glb?v=6b016a0d",
+    "mb": 1.5
+   },
+   "variants": [
+    {
+     "key": "kit",
+     "img": {
+      "src": "img/d1-kit-3d.webp?v=6b016a5d",
+      "w": 1232,
+      "h": 1172
+     },
+     "model": {
+      "src": "models/d1-kit.glb?v=6b016a62",
+      "mb": 2.1
+     }
+    }
+   ],
+   "schematics": [
+    {
+     "kind": "main",
+     "part": "control",
+     "src": "schematics/D1_Control_Schematic.pdf",
+     "kb": 257
+    },
+    {
+     "kind": "main",
+     "part": "main",
+     "src": "schematics/D1_Main_Schematic.pdf",
+     "kb": 277
+    },
+    {
+     "kind": "kit",
+     "part": "control",
+     "src": "schematics/D1_Kit_Control_Schematic.pdf",
+     "kb": 251
+    },
+    {
+     "kind": "kit",
+     "part": "main",
+     "src": "schematics/D1_Kit_Main_Schematic.pdf",
+     "kb": 279
+    }
+   ],
+   "slug": "d1-8-step-sequencer"
+  },
+  {
+   "id": "D2",
+   "default_variant": "RGB",
+   "folder": "022_D2_Random_Turing_Machine",
+   "cat": "sequencing",
+   "name": {
+    "de": "Random / Turing Machine",
+    "en": "Random / Turing Machine"
+   },
+   "tag": {
+    "de": "Zufall, der sich merken lässt",
+    "en": "Randomness you can lock in"
+   },
+   "text": {
+    "de": "Erzeugt bei jedem Takt eine neue Steuerspannung aus einem Schieberegister. Die Folge wiederholt sich genau, verändert sich langsam oder bleibt völlig zufällig.",
+    "en": "Generates a new control voltage on every clock from a shift register. The sequence repeats exactly, drifts slowly or stays fully random."
+   },
+   "feat": {
+    "de": [
+     "Schleifenlänge 2 bis 16 Schritte",
+     "PROB stellt die Veränderung ein",
+     "Acht RGB-LEDs zeigen das Register"
+    ],
+    "en": [
+     "Loop length from 2 to 16 steps",
+     "PROB sets how much the loop changes",
+     "Eight RGB LEDs show the register"
+    ]
+   },
+   "leds": [
+    {
+     "x": 50.0,
+     "y": 44.36,
+     "d": 14.36,
+     "hue": 0
+    },
+    {
+     "x": 34.26,
+     "y": 46.42,
+     "d": 14.36,
+     "hue": 315
+    },
+    {
+     "x": 65.74,
+     "y": 46.42,
+     "d": 14.36,
+     "hue": 45
+    },
+    {
+     "x": 27.72,
+     "y": 51.36,
+     "d": 14.36,
+     "hue": 270
+    },
+    {
+     "x": 72.28,
+     "y": 51.36,
+     "d": 14.36,
+     "hue": 90
+    },
+    {
+     "x": 34.26,
+     "y": 56.31,
+     "d": 14.36,
+     "hue": 225
+    },
+    {
+     "x": 65.74,
+     "y": 56.31,
+     "d": 14.36,
+     "hue": 135
+    },
+    {
+     "x": 50.0,
+     "y": 58.36,
+     "d": 14.36,
+     "hue": 180
+    },
+    {
+     "x": 50.0,
+     "y": 75.47,
+     "d": 8.91
+    }
+   ],
+   "facts": {
+    "kit": true,
+    "assembled": true,
+    "panel": "D2_RGB_Panel_V0_8",
+    "hp": 8,
+    "width_mm": 40.4,
+    "jacks": 4,
+    "knobs": 2,
+    "switches": 1,
+    "powered": true
+   },
+   "img": {
+    "front": {
+     "src": "img/d2-front.webp?v=6b032032",
+     "w": 470,
+     "h": 1500
+    },
+    "view3d": {
+     "src": "img/d2-3d.webp?v=6b03205d",
+     "w": 1032,
+     "h": 1046
+    }
+   },
+   "model": {
+    "src": "models/d2.glb?v=6b032062",
+    "mb": 0.8
+   },
+   "variants": [
+    {
+     "key": "kit",
+     "img": {
+      "src": "img/d2-kit-3d.webp?v=6b016afd",
+      "w": 1032,
+      "h": 1090
+     },
+     "model": {
+      "src": "models/d2-kit.glb?v=6b016aff",
+      "mb": 1.4
+     }
+    },
+    {
+     "key": "mono",
+     "img": {
+      "src": "img/d2-mono-3d.webp?v=6b03208b",
+      "w": 1032,
+      "h": 1046
+     },
+     "model": {
+      "src": "models/d2-mono.glb?v=6b03208c",
+      "mb": 0.8
+     }
+    }
+   ],
+   "schematics": [
+    {
+     "kind": "main",
+     "part": "",
+     "src": "schematics/D2_Turing_Schematic.pdf",
+     "kb": 274
+    },
+    {
+     "kind": "main",
+     "part": "rgb",
+     "src": "schematics/D2_Turing_RGB_Schematic.pdf",
+     "kb": 304
+    },
+    {
+     "kind": "kit",
+     "part": "",
+     "src": "schematics/D2_Kit_Gesamt_Schematic.pdf",
+     "kb": 276
+    }
+   ],
+   "slug": "d2-random-turing-machine"
+  },
+  {
+   "id": "D3",
+   "folder": "023_D3_Sampler_Looper",
+   "cat": "source",
+   "name": {
+    "de": "Sampler / Looper",
+    "en": "Sampler / Looper"
+   },
+   "tag": {
+    "de": "Aufnehmen und spielbar machen",
+    "en": "Record it, then play it"
+   },
+   "text": {
+    "de": "Nimmt Audio auf und spielt es wieder ab: einmal, als Schleife oder rückwärts, in der Tonhöhe spielbar über 1 V/Okt.",
+    "en": "Records audio and plays it back: once, looped or reversed, with pitch playable at 1 V/oct."
+   },
+   "feat": {
+    "de": [
+     "START und END legen den Ausschnitt fest",
+     "Tonhöhe ± 2 Oktaven",
+     "Samples auf microSD"
+    ],
+    "en": [
+     "START and END set the playback region",
+     "Pitch ± 2 octaves",
+     "Samples on microSD"
+    ]
+   },
+   "leds": [
+    {
+     "x": 15.4,
+     "y": 50.19,
+     "d": 5.93
+    },
+    {
+     "x": 38.47,
+     "y": 50.19,
+     "d": 5.93
+    },
+    {
+     "x": 61.53,
+     "y": 50.19,
+     "d": 5.93
+    },
+    {
+     "x": 84.6,
+     "y": 50.19,
+     "d": 5.93
+    }
+   ],
+   "facts": {
+    "kit": true,
+    "assembled": true,
+    "panel": "D3_Panel_V0_17",
+    "hp": 12,
+    "width_mm": 60.7,
+    "jacks": 8,
+    "knobs": 4,
+    "switches": 5,
+    "powered": true
+   },
+   "img": {
+    "front": {
+     "src": "img/d3-front.webp?v=6b016b6f",
+     "w": 708,
+     "h": 1500
+    },
+    "view3d": {
+     "src": "img/d3-3d.webp?v=6b016b99",
+     "w": 1232,
+     "h": 1127
+    }
+   },
+   "model": {
+    "src": "models/d3.glb?v=6b016b9b",
+    "mb": 1.1
+   },
+   "variants": [
+    {
+     "key": "kit",
+     "img": {
+      "src": "img/d3-kit-3d.webp?v=6b016bc9",
+      "w": 1232,
+      "h": 1163
+     },
+     "model": {
+      "src": "models/d3-kit.glb?v=6b016bcc",
+      "mb": 2.0
+     }
+    }
+   ],
+   "schematics": [
+    {
+     "kind": "main",
+     "part": "",
+     "src": "schematics/D3_Sampler_Schematic.pdf",
+     "kb": 349
+    },
+    {
+     "kind": "kit",
+     "part": "",
+     "src": "schematics/D3_Kit_Gesamt_Schematic.pdf",
+     "kb": 351
+    }
+   ],
+   "slug": "d3-sampler-looper"
+  },
+  {
+   "id": "D4",
+   "folder": "024_D4_Digital_Delay_Reverb",
+   "cat": "filter",
+   "name": {
+    "de": "Delay / Reverb",
+    "en": "Delay / Reverb"
+   },
+   "tag": {
+    "de": "Echo und Hall, auch gleichzeitig",
+    "en": "Echo and reverb, also both at once"
+   },
+   "text": {
+    "de": "Digitales Echo und Hall für Audiosignale. Das Echo wiederholt das Signal nach einstellbarer Zeit, der Hall simuliert einen Raum.",
+    "en": "Digital delay and reverb for audio. The delay repeats the signal after an adjustable time, the reverb simulates a room."
+   },
+   "feat": {
+    "de": [
+     "Verzögerung ca. 1 ms … 2 s",
+     "Feedback bis ca. 95 %",
+     "Zeit per CV steuerbar"
+    ],
+    "en": [
+     "Delay time about 1 ms to 2 s",
+     "Feedback up to about 95 %",
+     "Time is CV controllable"
+    ]
+   },
+   "leds": [
+    {
+     "x": 14.13,
+     "y": 53.3,
+     "d": 7.11
+    },
+    {
+     "x": 38.04,
+     "y": 53.3,
+     "d": 7.11
+    },
+    {
+     "x": 61.96,
+     "y": 53.3,
+     "d": 7.11
+    },
+    {
+     "x": 85.87,
+     "y": 53.3,
+     "d": 7.11
+    }
+   ],
+   "facts": {
+    "kit": true,
+    "assembled": true,
+    "panel": "D4_Panel_V0_15",
+    "hp": 10,
+    "width_mm": 50.6,
+    "jacks": 7,
+    "knobs": 5,
+    "switches": 1,
+    "powered": true
+   },
+   "img": {
+    "front": {
+     "src": "img/d4-front.webp?v=6b016c10",
+     "w": 589,
+     "h": 1500
+    },
+    "view3d": {
+     "src": "img/d4-3d.webp?v=6b016c32",
+     "w": 1133,
+     "h": 1125
+    }
+   },
+   "model": {
+    "src": "models/d4.glb?v=6b016c34",
+    "mb": 1.1
+   },
+   "variants": [
+    {
+     "key": "kit",
+     "img": {
+      "src": "img/d4-kit-3d.webp?v=6b016c63",
+      "w": 1133,
+      "h": 1126
+     },
+     "model": {
+      "src": "models/d4-kit.glb?v=6b016c65",
+      "mb": 1.6
+     }
+    }
+   ],
+   "schematics": [
+    {
+     "kind": "main",
+     "part": "control",
+     "src": "schematics/D4_Control_Schematic.pdf",
+     "kb": 140
+    },
+    {
+     "kind": "main",
+     "part": "main",
+     "src": "schematics/D4_Main_Schematic.pdf",
+     "kb": 258
+    },
+    {
+     "kind": "kit",
+     "part": "control",
+     "src": "schematics/D4_Kit_Control_Schematic.pdf",
+     "kb": 140
+    },
+    {
+     "kind": "kit",
+     "part": "main",
+     "src": "schematics/D4_Kit_Main_Schematic.pdf",
+     "kb": 260
+    }
+   ],
+   "slug": "d4-delay-reverb"
+  },
+  {
+   "id": "D5",
+   "folder": "025_D5_Quantizer",
+   "cat": "sequencing",
+   "name": {
+    "de": "Quantizer",
+    "en": "Quantizer"
+   },
+   "tag": {
+    "de": "Jede Spannung trifft die Tonart",
+    "en": "Every voltage lands in key"
+   },
+   "text": {
+    "de": "Rundet eine Steuerspannung auf den nächsten Ton einer gewählten Tonleiter. Aus LFO, Zufall oder Sequencer werden Melodien in der Tonart.",
+    "en": "Rounds a control voltage to the nearest note of the selected scale. LFOs, random voltages and sequencers become melodies in key."
+   },
+   "feat": {
+    "de": [
+     "12 Tonleitern am Drehschalter",
+     "Akkord-Modus spielt Arpeggios",
+     "Trigger-Eingang übernimmt Töne im Takt"
+    ],
+    "en": [
+     "12 scales on a rotary switch",
+     "Chord mode plays arpeggios",
+     "Trigger input latches notes in time"
+    ]
+   },
+   "leds": [
+    {
+     "x": 68.44,
+     "y": 75.39,
+     "d": 8.91
+    },
+    {
+     "x": 43.81,
+     "y": 84.41,
+     "d": 8.91
+    }
+   ],
+   "facts": {
+    "kit": true,
+    "assembled": true,
+    "panel": "D5_Panel_V0_17",
+    "hp": 8,
+    "width_mm": 40.4,
+    "jacks": 3,
+    "knobs": 2,
+    "switches": 1,
+    "powered": true
+   },
+   "img": {
+    "front": {
+     "src": "img/d5-front.webp?v=6b016ca8",
+     "w": 470,
+     "h": 1500
+    },
+    "view3d": {
+     "src": "img/d5-3d.webp?v=6b016cd1",
+     "w": 1032,
+     "h": 1026
+    }
+   },
+   "model": {
+    "src": "models/d5.glb?v=6b016cd2",
+    "mb": 0.7
+   },
+   "variants": [
+    {
+     "key": "kit",
+     "img": {
+      "src": "img/d5-kit-3d.webp?v=6b016cf0",
+      "w": 1032,
+      "h": 1074
+     },
+     "model": {
+      "src": "models/d5-kit.glb?v=6b016cf2",
+      "mb": 1.3
+     }
+    }
+   ],
+   "schematics": [
+    {
+     "kind": "main",
+     "part": "",
+     "src": "schematics/D5_Quantizer_Schematic.pdf",
+     "kb": 260
+    },
+    {
+     "kind": "kit",
+     "part": "",
+     "src": "schematics/D5_Kit_Gesamt_Schematic.pdf",
+     "kb": 262
+    }
+   ],
+   "slug": "d5-quantizer"
+  },
+  {
+   "id": "D6",
+   "folder": "026_D6_Euclidean_Rhythm",
+   "cat": "sequencing",
+   "name": {
+    "de": "Euclidean Rhythm",
+    "en": "Euclidean Rhythm"
+   },
+   "tag": {
+    "de": "Vier euklidische Rhythmus-Generatoren",
+    "en": "Four Euclidean rhythm generators"
+   },
+   "text": {
+    "de": "Vier unabhängige Kanäle verteilen eine Anzahl Schläge möglichst gleichmäßig auf eine Anzahl Schritte und geben bei jedem Schlag ein Gate aus.",
+    "en": "Four independent channels spread a number of hits as evenly as possible over a number of steps and output a gate on every hit."
+   },
+   "feat": {
+    "de": [
+     "Musterlänge 1 bis 32 Schritte je Kanal",
+     "Schläge, Länge und Versatz je Kanal einstellbar",
+     "Gemeinsamer Takt und Reset"
+    ],
+    "en": [
+     "Pattern length from 1 to 32 steps per channel",
+     "Hits, length and offset per channel",
+     "Shared clock and reset"
+    ]
+   },
+   "leds": [
+    {
+     "x": 12.45,
+     "y": 63.72,
+     "d": 7.11
+    },
+    {
+     "x": 27.27,
+     "y": 63.72,
+     "d": 7.11
+    },
+    {
+     "x": 42.09,
+     "y": 63.72,
+     "d": 7.11
+    },
+    {
+     "x": 56.92,
+     "y": 63.72,
+     "d": 7.11
+    }
+   ],
+   "facts": {
+    "kit": true,
+    "assembled": true,
+    "panel": "D6_Panel_V0_12",
+    "hp": 10,
+    "width_mm": 50.6,
+    "jacks": 6,
+    "knobs": 12,
+    "switches": 0,
+    "powered": true
+   },
+   "img": {
+    "front": {
+     "src": "img/d6-front.webp?v=6b016d3d",
+     "w": 589,
+     "h": 1500
+    },
+    "view3d": {
+     "src": "img/d6-3d.webp?v=6b016d76",
+     "w": 1133,
+     "h": 1102
+    }
+   },
+   "model": {
+    "src": "models/d6.glb?v=6b016d78",
+    "mb": 1.0
+   },
+   "variants": [
+    {
+     "key": "kit",
+     "img": {
+      "src": "img/d6-kit-3d.webp?v=6b016dad",
+      "w": 1133,
+      "h": 1142
+     },
+     "model": {
+      "src": "models/d6-kit.glb?v=6b016db0",
+      "mb": 1.7
+     }
+    }
+   ],
+   "schematics": [
+    {
+     "kind": "main",
+     "part": "",
+     "src": "schematics/D6_Euclidean_Schematic.pdf",
+     "kb": 306
+    },
+    {
+     "kind": "kit",
+     "part": "",
+     "src": "schematics/D6_Kit_Gesamt_Schematic.pdf",
+     "kb": 307
+    }
+   ],
+   "slug": "d6-euclidean-rhythm"
+  },
+  {
+   "id": "D7",
+   "folder": "027_D7_MIDI_to_CV",
+   "cat": "io",
+   "name": {
+    "de": "MIDI to CV",
+    "en": "MIDI to CV"
+   },
+   "tag": {
+    "de": "Keyboard und Computer spielen das Rack",
+    "en": "Keyboards and computers play the rack"
+   },
+   "text": {
+    "de": "Wandelt MIDI-Noten in Tonhöhe und Gate für zwei Stimmen, dazu Takt und Start/Stop aus der MIDI-Clock.",
+    "en": "Converts MIDI notes into pitch and gate for two voices, plus clock and start/stop from MIDI clock."
+   },
+   "feat": {
+    "de": [
+     "MIDI-Eingang als 3,5-mm-Klinke, Typ A und B",
+     "Kanal per Lernfunktion",
+     "Zwei Stimmen oder eine Stimme mit Velocity"
+    ],
+    "en": [
+     "MIDI input on a 3.5 mm jack, type A and B",
+     "Channel set by learn function",
+     "Two voices, or one voice with velocity"
+    ]
+   },
+   "leds": [
+    {
+     "x": 50.0,
+     "y": 49.42,
+     "d": 8.91
+    },
+    {
+     "x": 50.0,
+     "y": 61.08,
+     "d": 8.91
+    },
+    {
+     "x": 50.0,
+     "y": 72.74,
+     "d": 8.91
+    },
+    {
+     "x": 50.0,
+     "y": 84.41,
+     "d": 8.91
+    }
+   ],
+   "facts": {
+    "kit": true,
+    "assembled": true,
+    "panel": "D7_Panel_V0_14",
+    "hp": 8,
+    "width_mm": 40.4,
+    "jacks": 7,
+    "knobs": 0,
+    "switches": 3,
+    "powered": true
+   },
+   "img": {
+    "front": {
+     "src": "img/d7-front.webp?v=6b016e22",
+     "w": 470,
+     "h": 1500
+    },
+    "view3d": {
+     "src": "img/d7-3d.webp?v=6b016e5d",
+     "w": 1032,
+     "h": 1026
+    }
+   },
+   "model": {
+    "src": "models/d7.glb?v=6b016e5e",
+    "mb": 0.7
+   },
+   "variants": [
+    {
+     "key": "kit",
+     "img": {
+      "src": "img/d7-kit-3d.webp?v=6b016e94",
+      "w": 1032,
+      "h": 1063
+     },
+     "model": {
+      "src": "models/d7-kit.glb?v=6b016e96",
+      "mb": 1.3
+     }
+    }
+   ],
+   "schematics": [
+    {
+     "kind": "main",
+     "part": "",
+     "src": "schematics/D7_MIDI_to_CV_Schematic.pdf",
+     "kb": 281
+    },
+    {
+     "kind": "kit",
+     "part": "",
+     "src": "schematics/D7_Kit_Gesamt_Schematic.pdf",
+     "kb": 283
+    }
+   ],
+   "slug": "d7-midi-to-cv"
+  },
+  {
+   "id": "D8",
+   "folder": "028_D8_Wavetable_Oscillator",
+   "cat": "source",
+   "name": {
+    "de": "Wavetable Oscillator",
+    "en": "Wavetable Oscillator"
+   },
+   "tag": {
+    "de": "Digitaler Oszillator mit Morphing",
+    "en": "Digital oscillator with morphing"
+   },
+   "text": {
+    "de": "Spielt gespeicherte Wellenformen ab. MORPH fährt stufenlos durch die Wellenformen einer Tabelle, WT wählt die Tabelle.",
+    "en": "Plays stored waveforms. MORPH sweeps smoothly through the waves of a table, WT selects the table."
+   },
+   "feat": {
+    "de": [
+     "Tonhöhe 1 V/Okt",
+     "MORPH per CV steuerbar",
+     "Mehrere Wavetables wählbar"
+    ],
+    "en": [
+     "Pitch at 1 V/oct",
+     "MORPH is CV controllable",
+     "Several wavetables to choose from"
+    ]
+   },
+   "leds": [
+    {
+     "x": 73.06,
+     "y": 31.53,
+     "d": 5.93
+    }
+   ],
+   "facts": {
+    "kit": true,
+    "assembled": true,
+    "panel": "D8_Panel_V0_12",
+    "hp": 12,
+    "width_mm": 60.7,
+    "jacks": 5,
+    "knobs": 4,
+    "switches": 0,
+    "powered": true
+   },
+   "img": {
+    "front": {
+     "src": "img/d8-front.webp?v=6b016ec7",
+     "w": 708,
+     "h": 1500
+    },
+    "view3d": {
+     "src": "img/d8-3d.webp?v=6b016ef0",
+     "w": 1232,
+     "h": 1127
+    }
+   },
+   "model": {
+    "src": "models/d8.glb?v=6b016ef1",
+    "mb": 0.8
+   },
+   "variants": [
+    {
+     "key": "kit",
+     "img": {
+      "src": "img/d8-kit-3d.webp?v=6b016f27",
+      "w": 1232,
+      "h": 1127
+     },
+     "model": {
+      "src": "models/d8-kit.glb?v=6b016f2a",
+      "mb": 1.2
+     }
+    }
+   ],
+   "schematics": [
+    {
+     "kind": "main",
+     "part": "",
+     "src": "schematics/D8_Wavetable_Schematic.pdf",
+     "kb": 233
+    },
+    {
+     "kind": "kit",
+     "part": "",
+     "src": "schematics/D8_Kit_Schematic.pdf",
+     "kb": 235
+    }
+   ],
+   "slug": "d8-wavetable-oscillator"
+  },
+  {
+   "id": "D9",
+   "folder": "029_D9_Granular_Synthesizer",
+   "cat": "source",
+   "name": {
+    "de": "Granular Synthesizer",
+    "en": "Granular Synthesizer"
+   },
+   "tag": {
+    "de": "Wolken und Texturen aus jedem Klang",
+    "en": "Clouds and textures from any sound"
+   },
+   "text": {
+    "de": "Nimmt das Eingangssignal laufend auf und spielt daraus viele kurze Klangschnipsel gleichzeitig ab. So entstehen Wolken, Texturen, gedehnte oder eingefrorene Klänge.",
+    "en": "Records the input continuously and plays back many short grains at once, creating clouds, textures, stretched or frozen sounds."
+   },
+   "feat": {
+    "de": [
+     "FREEZE hält den Puffer an",
+     "Größe und Dichte der Grains einstellbar"
+    ],
+    "en": [
+     "FREEZE holds the buffer",
+     "Adjustable grain size and density"
+    ]
+   },
+   "leds": [
+    {
+     "x": 38.47,
+     "y": 54.86,
+     "d": 5.93
+    },
+    {
+     "x": 84.6,
+     "y": 54.86,
+     "d": 5.93
+    }
+   ],
+   "facts": {
+    "kit": true,
+    "assembled": true,
+    "panel": "D9_Panel_V0_19",
+    "hp": 12,
+    "width_mm": 60.7,
+    "jacks": 8,
+    "knobs": 5,
+    "switches": 3,
+    "powered": true
+   },
+   "img": {
+    "front": {
+     "src": "img/d9-front.webp?v=6b016fc2",
+     "w": 708,
+     "h": 1500
+    },
+    "view3d": {
+     "src": "img/d9-3d.webp?v=6b017019",
+     "w": 1232,
+     "h": 1127
+    }
+   },
+   "model": {
+    "src": "models/d9.glb?v=6b01701b",
+    "mb": 1.1
+   },
+   "variants": [
+    {
+     "key": "kit",
+     "img": {
+      "src": "img/d9-kit-3d.webp?v=6b017071",
+      "w": 1232,
+      "h": 1163
+     },
+     "model": {
+      "src": "models/d9-kit.glb?v=6b017075",
+      "mb": 1.9
+     }
+    }
+   ],
+   "schematics": [
+    {
+     "kind": "main",
+     "part": "",
+     "src": "schematics/D9_Granular_Schematic.pdf",
+     "kb": 307
+    },
+    {
+     "kind": "kit",
+     "part": "",
+     "src": "schematics/D9_Kit_Schematic.pdf",
+     "kb": 309
+    }
+   ],
+   "slug": "d9-granular-synthesizer"
+  },
+  {
+   "id": "D10",
+   "folder": "030_D10_CV_to_MIDI",
+   "cat": "io",
+   "name": {
+    "de": "CV to MIDI",
+    "en": "CV to MIDI"
+   },
+   "tag": {
+    "de": "Das Rack spielt MIDI-Geräte",
+    "en": "The rack plays MIDI gear"
+   },
+   "text": {
+    "de": "Macht aus Steuerspannungen MIDI: Ein Sequencer im Rack spielt einen MIDI-Synthesizer, LFOs und Hüllkurven steuern dessen Parameter.",
+    "en": "Turns control voltages into MIDI: a sequencer in the rack plays a MIDI synth, and LFOs and envelopes control its parameters."
+   },
+   "feat": {
+    "de": [
+     "Vier Kanäle aus je CV und Gate",
+     "Noten oder Controller je Kanal",
+     "Einstellbar per Konfigurator im Browser"
+    ],
+    "en": [
+     "Four channels, each with CV and gate",
+     "Notes or controllers per channel",
+     "Set up with a browser-based configurator"
+    ]
+   },
+   "leds": [
+    {
+     "x": 41.96,
+     "y": 20.65,
+     "d": 8.91
+    },
+    {
+     "x": 58.04,
+     "y": 20.65,
+     "d": 8.91
+    },
+    {
+     "x": 41.96,
+     "y": 31.53,
+     "d": 8.91
+    },
+    {
+     "x": 58.04,
+     "y": 31.53,
+     "d": 8.91
+    },
+    {
+     "x": 50.0,
+     "y": 52.92,
+     "d": 8.91
+    }
+   ],
+   "facts": {
+    "kit": true,
+    "assembled": true,
+    "panel": "D10_Panel_V0_13",
+    "hp": 8,
+    "width_mm": 40.4,
+    "jacks": 9,
+    "knobs": 0,
+    "switches": 4,
+    "powered": true
+   },
+   "img": {
+    "front": {
+     "src": "img/d10-front.webp?v=6b0170b8",
+     "w": 470,
+     "h": 1500
+    },
+    "view3d": {
+     "src": "img/d10-3d.webp?v=6b0170e0",
+     "w": 1032,
+     "h": 1026
+    }
+   },
+   "model": {
+    "src": "models/d10.glb?v=6b0170e2",
+    "mb": 0.8
+   },
+   "variants": [
+    {
+     "key": "kit",
+     "img": {
+      "src": "img/d10-kit-3d.webp?v=6b01710a",
+      "w": 1032,
+      "h": 1063
+     },
+     "model": {
+      "src": "models/d10-kit.glb?v=6b01710c",
+      "mb": 1.4
+     }
+    }
+   ],
+   "schematics": [
+    {
+     "kind": "main",
+     "part": "",
+     "src": "schematics/D10_CV_to_MIDI_Schematic.pdf",
+     "kb": 320
+    },
+    {
+     "kind": "kit",
+     "part": "",
+     "src": "schematics/D10_Kit_Schematic.pdf",
+     "kb": 323
+    }
+   ],
+   "slug": "d10-cv-to-midi"
+  },
+  {
+   "id": "D11",
+   "folder": "031_D11_Precision_Tuner_Scope",
+   "cat": "utility",
+   "name": {
+    "de": "Tuner / Scope",
+    "en": "Tuner / Scope"
+   },
+   "tag": {
+    "de": "Messgerät für das Rack",
+    "en": "A measuring tool for the rack"
+   },
+   "text": {
+    "de": "Zeigt Signale als Oszillogramm, stimmt Oszillatoren auf den Cent genau und misst Steuerspannungen. Zwei Eingänge mit THRU-Buchsen.",
+    "en": "Shows signals as a waveform, tunes oscillators to the cent and measures control voltages. Two inputs with THRU jacks."
+   },
+   "feat": {
+    "de": [
+     "OLED-Display 1,3 Zoll",
+     "Kann dauerhaft in einer Leitung bleiben",
+     "Stimmgerät, Oszilloskop und Voltmeter"
+    ],
+    "en": [
+     "1.3-inch OLED display",
+     "Can stay in line permanently",
+     "Tuner, oscilloscope and voltmeter"
+    ]
+   },
+   "leds": [],
+   "facts": {
+    "kit": true,
+    "assembled": true,
+    "panel": "D11_Panel_V0_14",
+    "hp": 8,
+    "width_mm": 40.4,
+    "jacks": 4,
+    "knobs": 0,
+    "switches": 3,
+    "powered": true
+   },
+   "img": {
+    "front": {
+     "src": "img/d11-front.webp?v=6b01713e",
+     "w": 470,
+     "h": 1500
+    },
+    "view3d": {
+     "src": "img/d11-3d.webp?v=6b017163",
+     "w": 1032,
+     "h": 1026
+    }
+   },
+   "model": {
+    "src": "models/d11.glb?v=6b017164",
+    "mb": 0.7
+   },
+   "variants": [
+    {
+     "key": "kit",
+     "img": {
+      "src": "img/d11-kit-3d.webp?v=6b017189",
+      "w": 1032,
+      "h": 1063
+     },
+     "model": {
+      "src": "models/d11-kit.glb?v=6b01718c",
+      "mb": 1.3
+     }
+    }
+   ],
+   "schematics": [
+    {
+     "kind": "main",
+     "part": "",
+     "src": "schematics/D11_Tuner_Scope_Schematic.pdf",
+     "kb": 278
+    },
+    {
+     "kind": "kit",
+     "part": "",
+     "src": "schematics/D11_Kit_Gesamt_Schematic.pdf",
+     "kb": 280
+    }
+   ],
+   "slug": "d11-tuner-scope"
+  },
+  {
+   "id": "D12",
+   "folder": "032_D12_Logic_Boolean_Processor",
+   "cat": "utility",
+   "name": {
+    "de": "Logic Processor",
+    "en": "Logic Processor"
+   },
+   "tag": {
+    "de": "Vier Logik-Kanäle, auch für Audio",
+    "en": "Four logic channels, fast enough for audio"
+   },
+   "text": {
+    "de": "Vier Eingänge mit einstellbarer Schwelle, vier Ausgänge mit wählbarer Logikfunktion. Schnell genug für Audio: XOR zweier Oszillatoren klingt ähnlich wie ein Ringmodulator.",
+    "en": "Four inputs with adjustable thresholds, four outputs with selectable logic functions. Fast enough for audio: XOR of two oscillators sounds much like a ring modulator."
+   },
+   "feat": {
+    "de": [
+     "AND, OR, XOR und weitere Funktionen",
+     "Display zeigt die Verknüpfung",
+     "Für Gates, Takte und Audio-Rechtecke"
+    ],
+    "en": [
+     "AND, OR, XOR and more",
+     "Display shows the logic routing",
+     "For gates, clocks and audio-rate squares"
+    ]
+   },
+   "leds": [],
+   "facts": {
+    "kit": true,
+    "assembled": true,
+    "panel": "D12_Panel_V0_11",
+    "hp": 12,
+    "width_mm": 60.7,
+    "jacks": 9,
+    "knobs": 8,
+    "switches": 0,
+    "powered": true
+   },
+   "img": {
+    "front": {
+     "src": "img/d12-front.webp?v=6b0171d8",
+     "w": 708,
+     "h": 1500
+    },
+    "view3d": {
+     "src": "img/d12-3d.webp?v=6b0171ff",
+     "w": 1232,
+     "h": 1129
+    }
+   },
+   "model": {
+    "src": "models/d12.glb?v=6b017200",
+    "mb": 0.9
+   },
+   "variants": [
+    {
+     "key": "kit",
+     "img": {
+      "src": "img/d12-kit-3d.webp?v=6b017228",
+      "w": 1232,
+      "h": 1165
+     },
+     "model": {
+      "src": "models/d12-kit.glb?v=6b01722a",
+      "mb": 1.8
+     }
+    }
+   ],
+   "schematics": [
+    {
+     "kind": "main",
+     "part": "",
+     "src": "schematics/D12_Logic_Schematic.pdf",
+     "kb": 340
+    },
+    {
+     "kind": "kit",
+     "part": "",
+     "src": "schematics/D12_Kit_Gesamt_Schematic.pdf",
+     "kb": 343
+    }
+   ],
+   "slug": "d12-logic-processor"
+  },
+  {
+   "id": "D14",
+   "folder": "035_D14_Master_Clock",
+   "cat": "sequencing",
+   "name": {
+    "de": "Master Clock",
+    "en": "Master Clock"
+   },
+   "tag": {
+    "de": "Der Taktgeber des Systems",
+    "en": "The clock source of the system"
+   },
+   "text": {
+    "de": "Erzeugt ein Tempo von ca. 20 bis 300 BPM und gibt daraus vier Takte aus. Sequencer und Rhythmusmodule laufen damit synchron.",
+    "en": "Generates a tempo from about 20 to 300 BPM and outputs four clocks from it, keeping sequencers and rhythm modules in sync."
+   },
+   "feat": {
+    "de": [
+     "Tempo per Drehgeber oder TAP",
+     "Folgt wahlweise einem externen Takt",
+     "Display für Tempo und Teiler"
+    ],
+    "en": [
+     "Set the tempo by encoder or TAP",
+     "Can follow an external clock",
+     "Display for tempo and divisions"
+    ]
+   },
+   "leds": [],
+   "facts": {
+    "kit": false,
+    "assembled": true,
+    "panel": "D14_Panel_V0_5",
+    "hp": 8,
+    "width_mm": 40.4,
+    "jacks": 7,
+    "knobs": 1,
+    "switches": 2,
+    "powered": true
+   },
+   "img": {
+    "front": {
+     "src": "img/d14-front.webp?v=6b01725b",
+     "w": 470,
+     "h": 1500
+    },
+    "view3d": {
+     "src": "img/d14-3d.webp?v=6b01727b",
+     "w": 1032,
+     "h": 1026
+    }
+   },
+   "model": {
+    "src": "models/d14.glb?v=6b01727c",
+    "mb": 0.8
+   },
+   "variants": [],
+   "schematics": [
+    {
+     "kind": "main",
+     "part": "",
+     "src": "schematics/D14_Clock_Schematic.pdf",
+     "kb": 305
+    }
+   ],
+   "slug": "d14-master-clock"
+  }
+ ]
+}
