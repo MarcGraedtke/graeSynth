@@ -45,9 +45,17 @@ Lokaler Server (in Claude: Vorschau `website`, Port 8780):
 
 Dann `http://localhost:8780` öffnen.
 
+## Veröffentlichen (seit 22.11.2026)
+
+- Repo: `github.com/MarcGraedtke/graeSynth` (nur dieser Ordner; `dist/` wird mit eingecheckt, weil der Bau KiCad braucht).
+- Railway baut aus dem `Dockerfile` einen Caddy-Server (`Caddyfile`), der `dist/` ausliefert. Jeder Push auf `main` veröffentlicht neu.
+- Ablauf nach Änderungen: `build_site.py` → `git add -A` → `git commit` → `git push`.
+- Vorschau-Sperre: `NOINDEX = True` in `build_site.py` (robots.txt) und `X-Robots-Tag` in der `Caddyfile`. Zum Freischalten beides entfernen.
+- Impressum und Datenschutz: `content/legal/*.html`. Der Abschnitt `<!--cdn-->` erscheint nur, solange `site.js` den Viewer von jsdelivr lädt.
+
 ## Vor der Veröffentlichung offen
 
-- Impressum und Datenschutzerklärung sind Platzhalter.
+- Datenschutzerklärung ist ein Entwurf: vor dem Freischalten prüfen lassen (Railway-Region, Auftragsverarbeitung).
 - Der 3D-Viewer (`model-viewer`) wird nach einem Klick von `cdn.jsdelivr.net` geladen. Für eine Seite ganz ohne fremde Server die Datei nach `assets/` legen und den Pfad in `site.js` ändern.
 - Der Webserver sollte `.glb` zusätzlich komprimiert ausliefern (gzip/Brotli).
 - Die Knöpfe in den Bildern sind Platzhalter, bis der Knopftyp feststeht.
