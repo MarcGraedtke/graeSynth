@@ -9,7 +9,7 @@
     "nav": {"module": "Module", "system": "System", "status": "Stand"},
     "h_modules": "Module",
     "sub_modules": "%d Module in drei Familien. Ein Klick öffnet die Details.",
-    "hp": "TE",
+    "hp": "HP",
     "all": "Alle",
     "modules": "Module",
     "fam": {
@@ -21,7 +21,7 @@
     "h_system": "Das System",
     "sub_system": "Drei Familien, eine Gestaltung. Die Kennung auf jeder Front zeigt die Familie.",
     "system_points": [
-      ["Eurorack-Format.", "3 HE hoch, Breiten von 4 bis 12 TE, Versorgung ± 12 V über den üblichen Busstecker."],
+      ["Eurorack-Format.", "3 HE hoch, Breiten von 4 bis 12 HP, Versorgung ± 12 V über den üblichen Busstecker."],
       ["Lesbare Fronten.", "Eingänge und Ausgänge sind klar getrennt, Ausgänge liegen auf goldenen Feldern. Linien zeigen den Signalweg."],
       ["Fertig oder als Bausatz.", "Fertigmodule sind in SMD bestückt. Die Bausätze verwenden bedrahtete Bauteile und dieselbe Frontplatte."],
       ["Offen dokumentiert.", "Zu jedem Modul gibt es Bedienhinweise mit Wertebereichen und Patch-Ideen."]
