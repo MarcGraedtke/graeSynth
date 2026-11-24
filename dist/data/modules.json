@@ -107,12 +107,12 @@
    ],
    "datasheet": {
     "de": {
-     "src": "datasheets/A1_Attenuverter_Datenblatt_DE.pdf?v=6b0604e7",
-     "kb": 1392
+     "src": "datasheets/A1_Attenuverter_Datenblatt_DE.pdf?v=6b060754",
+     "kb": 319
     },
     "en": {
-     "src": "datasheets/A1_Attenuverter_Datenblatt_EN.pdf?v=6b0604eb",
-     "kb": 1389
+     "src": "datasheets/A1_Attenuverter_Datenblatt_EN.pdf?v=6b060757",
+     "kb": 316
     }
    },
    "slug": "a1-attenuverter"
@@ -214,12 +214,12 @@
    ],
    "datasheet": {
     "de": {
-     "src": "datasheets/A2_Dual_LFO_Datenblatt_DE.pdf?v=6b0604f0",
-     "kb": 1839
+     "src": "datasheets/A2_Dual_LFO_Datenblatt_DE.pdf?v=6b06075d",
+     "kb": 387
     },
     "en": {
-     "src": "datasheets/A2_Dual_LFO_Datenblatt_EN.pdf?v=6b0604f5",
-     "kb": 1837
+     "src": "datasheets/A2_Dual_LFO_Datenblatt_EN.pdf?v=6b060761",
+     "kb": 385
     }
    },
    "slug": "a2-dual-lfo"
@@ -331,12 +331,12 @@
    ],
    "datasheet": {
     "de": {
-     "src": "datasheets/A3_Quad_VCA_Datenblatt_DE.pdf?v=6b0604fa",
-     "kb": 2022
+     "src": "datasheets/A3_Quad_VCA_Datenblatt_DE.pdf?v=6b060767",
+     "kb": 407
     },
     "en": {
-     "src": "datasheets/A3_Quad_VCA_Datenblatt_EN.pdf?v=6b0604fd",
-     "kb": 2020
+     "src": "datasheets/A3_Quad_VCA_Datenblatt_EN.pdf?v=6b06076a",
+     "kb": 405
     }
    },
    "slug": "a3-quad-vca-mixer"
@@ -433,12 +433,12 @@
    ],
    "datasheet": {
     "de": {
-     "src": "datasheets/A4_ADSR_Datenblatt_DE.pdf?v=6b060502",
-     "kb": 1437
+     "src": "datasheets/A4_ADSR_Datenblatt_DE.pdf?v=6b060770",
+     "kb": 347
     },
     "en": {
-     "src": "datasheets/A4_ADSR_Datenblatt_EN.pdf?v=6b060506",
-     "kb": 1434
+     "src": "datasheets/A4_ADSR_Datenblatt_EN.pdf?v=6b060773",
+     "kb": 344
     }
    },
    "slug": "a4-adsr"
@@ -535,12 +535,12 @@
    ],
    "datasheet": {
     "de": {
-     "src": "datasheets/A5_VCF_Datenblatt_DE.pdf?v=6b06050a",
-     "kb": 1300
+     "src": "datasheets/A5_VCF_Datenblatt_DE.pdf?v=6b060778",
+     "kb": 325
     },
     "en": {
-     "src": "datasheets/A5_VCF_Datenblatt_EN.pdf?v=6b06050e",
-     "kb": 1297
+     "src": "datasheets/A5_VCF_Datenblatt_EN.pdf?v=6b06077b",
+     "kb": 323
     }
    },
    "slug": "a5-vcf"
@@ -619,7 +619,7 @@
     {
      "kind": "main",
      "part": "",
-     "src": "schematics/A6_VCO_Schematic.pdf?v=6b006a6e",
+     "src": "schematics/A6_VCO_Schematic.pdf?v=6b060850",
      "kb": 257
     },
     {
@@ -631,12 +631,12 @@
    ],
    "datasheet": {
     "de": {
-     "src": "datasheets/A6_VCO_Datenblatt_DE.pdf?v=6b060512",
-     "kb": 1663
+     "src": "datasheets/A6_VCO_Datenblatt_DE.pdf?v=6b060780",
+     "kb": 380
     },
     "en": {
-     "src": "datasheets/A6_VCO_Datenblatt_EN.pdf?v=6b060515",
-     "kb": 1660
+     "src": "datasheets/A6_VCO_Datenblatt_EN.pdf?v=6b060783",
+     "kb": 378
     }
    },
    "slug": "a6-vco"
@@ -733,12 +733,12 @@
    ],
    "datasheet": {
     "de": {
-     "src": "datasheets/A7_Noise_Datenblatt_DE.pdf?v=6b060519",
-     "kb": 927
+     "src": "datasheets/A7_Noise_Datenblatt_DE.pdf?v=6b060788",
+     "kb": 280
     },
     "en": {
-     "src": "datasheets/A7_Noise_Datenblatt_EN.pdf?v=6b06051c",
-     "kb": 925
+     "src": "datasheets/A7_Noise_Datenblatt_EN.pdf?v=6b06078b",
+     "kb": 277
     }
    },
    "slug": "a7-noise"
@@ -840,12 +840,12 @@
    ],
    "datasheet": {
     "de": {
-     "src": "datasheets/A8_Sample_Hold_Datenblatt_DE.pdf?v=6b060520",
-     "kb": 942
+     "src": "datasheets/A8_Sample_Hold_Datenblatt_DE.pdf?v=6b06078e",
+     "kb": 287
     },
     "en": {
-     "src": "datasheets/A8_Sample_Hold_Datenblatt_EN.pdf?v=6b060523",
-     "kb": 940
+     "src": "datasheets/A8_Sample_Hold_Datenblatt_EN.pdf?v=6b060791",
+     "kb": 285
     }
    },
    "slug": "a8-sample-hold"
@@ -936,12 +936,12 @@
    ],
    "datasheet": {
     "de": {
-     "src": "datasheets/A9_Ring_Modulator_Datenblatt_DE.pdf?v=6b060527",
-     "kb": 902
+     "src": "datasheets/A9_Ring_Modulator_Datenblatt_DE.pdf?v=6b060795",
+     "kb": 285
     },
     "en": {
-     "src": "datasheets/A9_Ring_Modulator_Datenblatt_EN.pdf?v=6b06052a",
-     "kb": 900
+     "src": "datasheets/A9_Ring_Modulator_Datenblatt_EN.pdf?v=6b060798",
+     "kb": 283
     }
    },
    "slug": "a9-ring-modulator"
@@ -1038,12 +1038,12 @@
    ],
    "datasheet": {
     "de": {
-     "src": "datasheets/A10_Slew_Limiter_Datenblatt_DE.pdf?v=6b06052e",
-     "kb": 880
+     "src": "datasheets/A10_Slew_Limiter_Datenblatt_DE.pdf?v=6b06079c",
+     "kb": 277
     },
     "en": {
-     "src": "datasheets/A10_Slew_Limiter_Datenblatt_EN.pdf?v=6b060530",
-     "kb": 877
+     "src": "datasheets/A10_Slew_Limiter_Datenblatt_EN.pdf?v=6b06079f",
+     "kb": 275
     }
    },
    "slug": "a10-slew-limiter"
@@ -1160,12 +1160,12 @@
    ],
    "datasheet": {
     "de": {
-     "src": "datasheets/A11_Comparator_Logic_Datenblatt_DE.pdf?v=6b060535",
-     "kb": 1308
+     "src": "datasheets/A11_Comparator_Logic_Datenblatt_DE.pdf?v=6b0607a3",
+     "kb": 329
     },
     "en": {
-     "src": "datasheets/A11_Comparator_Logic_Datenblatt_EN.pdf?v=6b060538",
-     "kb": 1305
+     "src": "datasheets/A11_Comparator_Logic_Datenblatt_EN.pdf?v=6b0607a6",
+     "kb": 326
     }
    },
    "slug": "a11-comparator-logic"
@@ -1282,12 +1282,12 @@
    ],
    "datasheet": {
     "de": {
-     "src": "datasheets/A12_Clock_Divider_Datenblatt_DE.pdf?v=6b06053b",
-     "kb": 1231
+     "src": "datasheets/A12_Clock_Divider_Datenblatt_DE.pdf?v=6b0607aa",
+     "kb": 319
     },
     "en": {
-     "src": "datasheets/A12_Clock_Divider_Datenblatt_EN.pdf?v=6b06053e",
-     "kb": 1229
+     "src": "datasheets/A12_Clock_Divider_Datenblatt_EN.pdf?v=6b0607ad",
+     "kb": 317
     }
    },
    "slug": "a12-clock-divider"
@@ -1384,12 +1384,12 @@
    ],
    "datasheet": {
     "de": {
-     "src": "datasheets/A13_Precision_Adder_Datenblatt_DE.pdf?v=6b0605ce",
-     "kb": 1145
+     "src": "datasheets/A13_Precision_Adder_Datenblatt_DE.pdf?v=6b06083d",
+     "kb": 318
     },
     "en": {
-     "src": "datasheets/A13_Precision_Adder_Datenblatt_EN.pdf?v=6b0605d1",
-     "kb": 1142
+     "src": "datasheets/A13_Precision_Adder_Datenblatt_EN.pdf?v=6b060840",
+     "kb": 316
     }
    },
    "slug": "a13-precision-adder"
@@ -1478,12 +1478,12 @@
    ],
    "datasheet": {
     "de": {
-     "src": "datasheets/A16_Audio_IO_Datenblatt_DE.pdf?v=6b0605d4",
-     "kb": 1056
+     "src": "datasheets/A16_Audio_IO_Datenblatt_DE.pdf?v=6b060844",
+     "kb": 295
     },
     "en": {
-     "src": "datasheets/A16_Audio_IO_Datenblatt_EN.pdf?v=6b0605d7",
-     "kb": 1053
+     "src": "datasheets/A16_Audio_IO_Datenblatt_EN.pdf?v=6b060847",
+     "kb": 293
     }
    },
    "slug": "a16-audio-i-o"
@@ -1553,12 +1553,12 @@
    ],
    "datasheet": {
     "de": {
-     "src": "datasheets/P1_4x_Multiple_Datenblatt_DE.pdf?v=6b060541",
-     "kb": 592
+     "src": "datasheets/P1_4x_Multiple_Datenblatt_DE.pdf?v=6b0607b0",
+     "kb": 197
     },
     "en": {
-     "src": "datasheets/P1_4x_Multiple_Datenblatt_EN.pdf?v=6b060543",
-     "kb": 589
+     "src": "datasheets/P1_4x_Multiple_Datenblatt_EN.pdf?v=6b0607b2",
+     "kb": 194
     }
    },
    "slug": "p1-4x-multiple"
@@ -1628,12 +1628,12 @@
    ],
    "datasheet": {
     "de": {
-     "src": "datasheets/P2_8x_Multiple_Datenblatt_DE.pdf?v=6b060546",
-     "kb": 991
+     "src": "datasheets/P2_8x_Multiple_Datenblatt_DE.pdf?v=6b0607b5",
+     "kb": 258
     },
     "en": {
-     "src": "datasheets/P2_8x_Multiple_Datenblatt_EN.pdf?v=6b060548",
-     "kb": 988
+     "src": "datasheets/P2_8x_Multiple_Datenblatt_EN.pdf?v=6b0607b7",
+     "kb": 255
     }
    },
    "slug": "p2-8x-multiple"
@@ -1705,12 +1705,12 @@
    ],
    "datasheet": {
     "de": {
-     "src": "datasheets/P3_Mute_Switch_Datenblatt_DE.pdf?v=6b06054b",
-     "kb": 1030
+     "src": "datasheets/P3_Mute_Switch_Datenblatt_DE.pdf?v=6b0607ba",
+     "kb": 268
     },
     "en": {
-     "src": "datasheets/P3_Mute_Switch_Datenblatt_EN.pdf?v=6b06054d",
-     "kb": 1026
+     "src": "datasheets/P3_Mute_Switch_Datenblatt_EN.pdf?v=6b0607bc",
+     "kb": 264
     }
    },
    "slug": "p3-mute-switch"
@@ -1780,12 +1780,12 @@
    ],
    "datasheet": {
     "de": {
-     "src": "datasheets/P4_Attenuator_Passiv_Datenblatt_DE.pdf?v=6b060550",
-     "kb": 840
+     "src": "datasheets/P4_Attenuator_Passiv_Datenblatt_DE.pdf?v=6b0607bf",
+     "kb": 248
     },
     "en": {
-     "src": "datasheets/P4_Attenuator_Passiv_Datenblatt_EN.pdf?v=6b060552",
-     "kb": 837
+     "src": "datasheets/P4_Attenuator_Passiv_Datenblatt_EN.pdf?v=6b0607c2",
+     "kb": 245
     }
    },
    "slug": "p4-attenuator"
@@ -1857,12 +1857,12 @@
    ],
    "datasheet": {
     "de": {
-     "src": "datasheets/P5_Passive_LP_HP_Datenblatt_DE.pdf?v=6b060555",
-     "kb": 580
+     "src": "datasheets/P5_Passive_LP_HP_Datenblatt_DE.pdf?v=6b0607c4",
+     "kb": 204
     },
     "en": {
-     "src": "datasheets/P5_Passive_LP_HP_Datenblatt_EN.pdf?v=6b060557",
-     "kb": 578
+     "src": "datasheets/P5_Passive_LP_HP_Datenblatt_EN.pdf?v=6b0607c6",
+     "kb": 201
     }
    },
    "slug": "p5-passive-lp-hp"
@@ -1940,12 +1940,12 @@
    ],
    "datasheet": {
     "de": {
-     "src": "datasheets/P6_Output_Datenblatt_DE.pdf?v=6b06055a",
-     "kb": 721
+     "src": "datasheets/P6_Output_Datenblatt_DE.pdf?v=6b0607c9",
+     "kb": 236
     },
     "en": {
-     "src": "datasheets/P6_Output_Datenblatt_EN.pdf?v=6b06055d",
-     "kb": 718
+     "src": "datasheets/P6_Output_Datenblatt_EN.pdf?v=6b0607cc",
+     "kb": 233
     }
    },
    "slug": "p6-output"
@@ -2034,12 +2034,12 @@
    ],
    "datasheet": {
     "de": {
-     "src": "datasheets/P7_Passive_Mixer_Datenblatt_DE.pdf?v=6b060560",
-     "kb": 1043
+     "src": "datasheets/P7_Passive_Mixer_Datenblatt_DE.pdf?v=6b0607cf",
+     "kb": 282
     },
     "en": {
-     "src": "datasheets/P7_Passive_Mixer_Datenblatt_EN.pdf?v=6b060562",
-     "kb": 1040
+     "src": "datasheets/P7_Passive_Mixer_Datenblatt_EN.pdf?v=6b0607d1",
+     "kb": 278
     }
    },
    "slug": "p7-passive-mixer"
@@ -2096,12 +2096,12 @@
    "schematics": [],
    "datasheet": {
     "de": {
-     "src": "datasheets/P8_Blanking_Panel_Datenblatt_DE.pdf?v=6b060564",
-     "kb": 346
+     "src": "datasheets/P8_Blanking_Panel_Datenblatt_DE.pdf?v=6b0607d4",
+     "kb": 155
     },
     "en": {
-     "src": "datasheets/P8_Blanking_Panel_Datenblatt_EN.pdf?v=6b060567",
-     "kb": 344
+     "src": "datasheets/P8_Blanking_Panel_Datenblatt_EN.pdf?v=6b0607d6",
+     "kb": 153
     }
    },
    "slug": "p8-blanking-panel"
@@ -2245,12 +2245,12 @@
    ],
    "datasheet": {
     "de": {
-     "src": "datasheets/D1_Sequencer_8Step_Datenblatt_DE.pdf?v=6b06056d",
-     "kb": 2059
+     "src": "datasheets/D1_Sequencer_8Step_Datenblatt_DE.pdf?v=6b0607dc",
+     "kb": 401
     },
     "en": {
-     "src": "datasheets/D1_Sequencer_8Step_Datenblatt_EN.pdf?v=6b060571",
-     "kb": 2056
+     "src": "datasheets/D1_Sequencer_8Step_Datenblatt_EN.pdf?v=6b0607e0",
+     "kb": 399
     }
    },
    "slug": "d1-8-step-sequencer"
@@ -2414,12 +2414,12 @@
    ],
    "datasheet": {
     "de": {
-     "src": "datasheets/D2_Random_Turing_Machine_Datenblatt_DE.pdf?v=6b060576",
-     "kb": 1392
+     "src": "datasheets/D2_Random_Turing_Machine_Datenblatt_DE.pdf?v=6b0607e4",
+     "kb": 347
     },
     "en": {
-     "src": "datasheets/D2_Random_Turing_Machine_Datenblatt_EN.pdf?v=6b060579",
-     "kb": 1390
+     "src": "datasheets/D2_Random_Turing_Machine_Datenblatt_EN.pdf?v=6b0607e8",
+     "kb": 344
     }
    },
    "slug": "d2-random-turing-machine"
@@ -2531,12 +2531,12 @@
    ],
    "datasheet": {
     "de": {
-     "src": "datasheets/D3_Sampler_Looper_Datenblatt_DE.pdf?v=6b06057e",
-     "kb": 1949
+     "src": "datasheets/D3_Sampler_Looper_Datenblatt_DE.pdf?v=6b0607ed",
+     "kb": 422
     },
     "en": {
-     "src": "datasheets/D3_Sampler_Looper_Datenblatt_EN.pdf?v=6b060581",
-     "kb": 1947
+     "src": "datasheets/D3_Sampler_Looper_Datenblatt_EN.pdf?v=6b0607f0",
+     "kb": 421
     }
    },
    "slug": "d3-sampler-looper"
@@ -2660,12 +2660,12 @@
    ],
    "datasheet": {
     "de": {
-     "src": "datasheets/D4_Delay_Reverb_Datenblatt_DE.pdf?v=6b060586",
-     "kb": 1505
+     "src": "datasheets/D4_Delay_Reverb_Datenblatt_DE.pdf?v=6b0607f5",
+     "kb": 353
     },
     "en": {
-     "src": "datasheets/D4_Delay_Reverb_Datenblatt_EN.pdf?v=6b06058a",
-     "kb": 1503
+     "src": "datasheets/D4_Delay_Reverb_Datenblatt_EN.pdf?v=6b0607f8",
+     "kb": 351
     }
    },
    "slug": "d4-delay-reverb"
@@ -2767,12 +2767,12 @@
    ],
    "datasheet": {
     "de": {
-     "src": "datasheets/D5_Quantizer_Datenblatt_DE.pdf?v=6b06058e",
-     "kb": 1271
+     "src": "datasheets/D5_Quantizer_Datenblatt_DE.pdf?v=6b0607fd",
+     "kb": 339
     },
     "en": {
-     "src": "datasheets/D5_Quantizer_Datenblatt_EN.pdf?v=6b060592",
-     "kb": 1268
+     "src": "datasheets/D5_Quantizer_Datenblatt_EN.pdf?v=6b060801",
+     "kb": 336
     }
    },
    "slug": "d5-quantizer"
@@ -2884,12 +2884,12 @@
    ],
    "datasheet": {
     "de": {
-     "src": "datasheets/D6_Euclidean_Rhythm_Datenblatt_DE.pdf?v=6b060597",
-     "kb": 1663
+     "src": "datasheets/D6_Euclidean_Rhythm_Datenblatt_DE.pdf?v=6b060806",
+     "kb": 359
     },
     "en": {
-     "src": "datasheets/D6_Euclidean_Rhythm_Datenblatt_EN.pdf?v=6b06059a",
-     "kb": 1660
+     "src": "datasheets/D6_Euclidean_Rhythm_Datenblatt_EN.pdf?v=6b060809",
+     "kb": 356
     }
    },
    "slug": "d6-euclidean-rhythm"
@@ -3001,12 +3001,12 @@
    ],
    "datasheet": {
     "de": {
-     "src": "datasheets/D7_MIDI_to_CV_Datenblatt_DE.pdf?v=6b06059e",
-     "kb": 1610
+     "src": "datasheets/D7_MIDI_to_CV_Datenblatt_DE.pdf?v=6b06080e",
+     "kb": 367
     },
     "en": {
-     "src": "datasheets/D7_MIDI_to_CV_Datenblatt_EN.pdf?v=6b0605a2",
-     "kb": 1608
+     "src": "datasheets/D7_MIDI_to_CV_Datenblatt_EN.pdf?v=6b060811",
+     "kb": 364
     }
    },
    "slug": "d7-midi-to-cv"
@@ -3103,12 +3103,12 @@
    ],
    "datasheet": {
     "de": {
-     "src": "datasheets/D8_Wavetable_Oscillator_Datenblatt_DE.pdf?v=6b0605a6",
-     "kb": 1790
+     "src": "datasheets/D8_Wavetable_Oscillator_Datenblatt_DE.pdf?v=6b060815",
+     "kb": 435
     },
     "en": {
-     "src": "datasheets/D8_Wavetable_Oscillator_Datenblatt_EN.pdf?v=6b0605a9",
-     "kb": 1788
+     "src": "datasheets/D8_Wavetable_Oscillator_Datenblatt_EN.pdf?v=6b060818",
+     "kb": 433
     }
    },
    "slug": "d8-wavetable-oscillator"
@@ -3208,12 +3208,12 @@
    ],
    "datasheet": {
     "de": {
-     "src": "datasheets/D9_Granular_Synthesizer_Datenblatt_DE.pdf?v=6b0605ae",
-     "kb": 2042
+     "src": "datasheets/D9_Granular_Synthesizer_Datenblatt_DE.pdf?v=6b06081d",
+     "kb": 450
     },
     "en": {
-     "src": "datasheets/D9_Granular_Synthesizer_Datenblatt_EN.pdf?v=6b0605b2",
-     "kb": 2040
+     "src": "datasheets/D9_Granular_Synthesizer_Datenblatt_EN.pdf?v=6b060821",
+     "kb": 448
     }
    },
    "slug": "d9-granular-synthesizer"
@@ -3330,12 +3330,12 @@
    ],
    "datasheet": {
     "de": {
-     "src": "datasheets/D10_CV_to_MIDI_Datenblatt_DE.pdf?v=6b0605b6",
-     "kb": 1428
+     "src": "datasheets/D10_CV_to_MIDI_Datenblatt_DE.pdf?v=6b060826",
+     "kb": 355
     },
     "en": {
-     "src": "datasheets/D10_CV_to_MIDI_Datenblatt_EN.pdf?v=6b0605ba",
-     "kb": 1425
+     "src": "datasheets/D10_CV_to_MIDI_Datenblatt_EN.pdf?v=6b060829",
+     "kb": 352
     }
    },
    "slug": "d10-cv-to-midi"
@@ -3426,12 +3426,12 @@
    ],
    "datasheet": {
     "de": {
-     "src": "datasheets/D11_Precision_Tuner_Scope_Datenblatt_DE.pdf?v=6b0605be",
-     "kb": 1384
+     "src": "datasheets/D11_Precision_Tuner_Scope_Datenblatt_DE.pdf?v=6b06082d",
+     "kb": 357
     },
     "en": {
-     "src": "datasheets/D11_Precision_Tuner_Scope_Datenblatt_EN.pdf?v=6b0605c1",
-     "kb": 1382
+     "src": "datasheets/D11_Precision_Tuner_Scope_Datenblatt_EN.pdf?v=6b060831",
+     "kb": 355
     }
    },
    "slug": "d11-tuner-scope"
@@ -3522,12 +3522,12 @@
    ],
    "datasheet": {
     "de": {
-     "src": "datasheets/D12_Logic_Boolean_Processor_Datenblatt_DE.pdf?v=6b0605c6",
-     "kb": 1819
+     "src": "datasheets/D12_Logic_Boolean_Processor_Datenblatt_DE.pdf?v=6b060836",
+     "kb": 388
     },
     "en": {
-     "src": "datasheets/D12_Logic_Boolean_Processor_Datenblatt_EN.pdf?v=6b0605ca",
-     "kb": 1816
+     "src": "datasheets/D12_Logic_Boolean_Processor_Datenblatt_EN.pdf?v=6b060839",
+     "kb": 385
     }
    },
    "slug": "d12-logic-processor"
@@ -3599,12 +3599,12 @@
    ],
    "datasheet": {
     "de": {
-     "src": "datasheets/D14_Master_Clock_Datenblatt_DE.pdf?v=6b0605da",
-     "kb": 966
+     "src": "datasheets/D14_Master_Clock_Datenblatt_DE.pdf?v=6b06084a",
+     "kb": 283
     },
     "en": {
-     "src": "datasheets/D14_Master_Clock_Datenblatt_EN.pdf?v=6b0605dd",
-     "kb": 963
+     "src": "datasheets/D14_Master_Clock_Datenblatt_EN.pdf?v=6b06084d",
+     "kb": 281
     }
    },
    "slug": "d14-master-clock"
