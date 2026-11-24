@@ -302,8 +302,54 @@ def schematics(mods):
             keep.add(name)
             last = name[:-len("_Schematic.pdf")].split("_")[-1]
             m["schematics"].append({"kind": kind, "part": last.lower() if last in SCH_PART else "",
-                                    "src": "schematics/" + name, "kb": int(round(os.path.getsize(dst) / 1000.0))})
+                                    "src": "schematics/" + name + _ver(dst), "kb": int(round(os.path.getsize(dst) / 1000.0))})
     for f in os.listdir(od):                   # nicht mehr gelistete Plaene entfernen
+        if f not in keep:
+            os.remove(os.path.join(od, f))
+
+
+DS_INDEX = os.path.join(MODS, "Datenblaetter.md")
+
+
+def datasheets(mods):
+    """Datenblatt-PDFs laut 010_Module/Datenblaetter.md (Spalten ID | Modul | Deutsch | Englisch) nach dist/datasheets
+    kopieren. m['datasheet'] = {de: {src, kb}, en: {src, kb}}. Erzeugt werden sie mit _kicad_tools/datenblatt.py."""
+    rows = {}
+    for line in open(DS_INDEX, encoding="utf-8") if os.path.exists(DS_INDEX) else ():
+        cells = [c.strip() for c in line.split("|")]
+        if len(cells) < 6:
+            continue
+        links = [re.findall(r"\]\(([^)]+\.pdf)\)", c) for c in cells[3:5]]
+        if all(links):
+            rows[cells[1]] = {"de": links[0][0], "en": links[1][0]}
+    od = os.path.join(DIST, "datasheets")
+    os.makedirs(od, exist_ok=True)
+    keep = set()
+    for m in mods:
+        m.pop("datasheet", None)
+        r = rows.get(m["id"])
+        if not r:
+            print("  ohne Datenblatt:", m["id"], flush=True)
+            continue
+        ds = {}
+        for lang, rel in r.items():
+            src = os.path.join(MODS, *rel.split("/"))
+            if not os.path.exists(src):
+                print("  Datenblatt fehlt:", rel, flush=True)
+                continue
+            js = os.path.join(os.path.dirname(src), "datenblatt.json")
+            if os.path.exists(js) and os.path.getmtime(js) > os.path.getmtime(src) + 1:
+                print("  Datenblatt-PDF aelter als datenblatt.json:", rel, flush=True)
+            name = os.path.basename(src)
+            dst = os.path.join(od, name)
+            if not os.path.exists(dst) or os.path.getmtime(dst) < os.path.getmtime(src):
+                shutil.copy2(src, dst + ".neu")
+                os.replace(dst + ".neu", dst)
+            keep.add(name)
+            ds[lang] = {"src": "datasheets/" + name + _ver(dst), "kb": int(round(os.path.getsize(dst) / 1000.0))}
+        if ds:
+            m["datasheet"] = ds
+    for f in os.listdir(od):                   # nicht mehr gelistete Datenblaetter entfernen
         if f not in keep:
             os.remove(os.path.join(od, f))
 
@@ -433,6 +479,12 @@ def module_page(m, mods, lang, T):
         segs += "".join('<button class="seg" type="button" data-v="%s" aria-pressed="false">%s</button>' % (
             v["key"], esc(T["variant_" + v["key"]])) for v in vs)
         switch = '<div class="variants" role="group" aria-label="%s">%s</div>' % (esc(T["variant_label"]), segs)
+    ds = ""
+    d = (m.get("datasheet") or {}).get(lang)
+    if d:                                      # Datenblatt in der Sprache der Seite, unter der Spezifikationstabelle
+        ds = ('<p class="ds"><a href="../%s" target="_blank" rel="noopener" type="application/pdf">'
+              '<span class="doc">PDF</span><span>%s</span><span class="kb">%d kB</span></a></p>') % (
+                  d["src"], esc(T["ds_link"]), d["kb"])
     sch = ""
     if m.get("schematics"):                    # Schaltplaene als PDF
         def sch_label(e):
@@ -452,12 +504,12 @@ def module_page(m, mods, lang, T):
 <article class="module"><div class="front">{pic}</div>
 <div class="info"><p class="meta"><span class="id">{id}</span><span class="tagfam">{fam}</span></p>
 <h1>{name}</h1><p class="lead">{tag}</p><p>{text}</p><ul class="feat">{feats}</ul>
-<table class="specs">{specs}</table><p class="badge">{badge}</p></div></article>
+<table class="specs">{specs}</table>{ds}<p class="badge">{badge}</p></div></article>
 <section class="more">{switch}{view}{viewer}</section>{sch}
 <nav class="pn"><a href="{pu}.html">← {pi} {pn}</a><a href="{nu}.html">{ni} {nn} →</a></nav>
 """.format(back=esc(T["back"]), pic=pic, id=esc(m["id"]), fam=esc(T["fam"][m["id"][0]]["name"]), name=esc(m["name"][lang]),
            tag=esc(m["tag"][lang]), text=esc(m["text"][lang]), feats=feats, specs=specs, badge=esc(T["badge"]),
-           view=view, viewer=viewer, switch=switch, sch=sch, pu=slug(prev), pi=esc(prev["id"]), pn=esc(prev["name"][lang]),
+           view=view, viewer=viewer, switch=switch, sch=sch, ds=ds, pu=slug(prev), pi=esc(prev["id"]), pn=esc(prev["name"][lang]),
            nu=slug(nxt), ni=esc(nxt["id"]), nn=esc(nxt["name"][lang]))
     return page(lang, T, "%s %s – graeSynth" % (m["id"], m["name"][lang]), m["tag"][lang], body,
                 slug(m) + ".html", slug(m) + ".html")
@@ -486,6 +538,7 @@ def main():
         images(mods, force="--force" in sys.argv)
     image_info(mods)
     schematics(mods)
+    datasheets(mods)
     shutil.copytree(os.path.join(HERE, "assets"), os.path.join(DIST, "assets"), dirs_exist_ok=True)
     for lang in LANGS:
         T = site[lang]

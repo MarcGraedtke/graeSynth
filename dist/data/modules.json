@@ -95,16 +95,26 @@
     {
      "kind": "main",
      "part": "",
-     "src": "schematics/A1_Attenuverter_Schematic.pdf",
+     "src": "schematics/A1_Attenuverter_Schematic.pdf?v=6b0073a2",
      "kb": 197
     },
     {
      "kind": "kit",
      "part": "",
-     "src": "schematics/A1_Kit_Schematic.pdf",
+     "src": "schematics/A1_Kit_Schematic.pdf?v=6b0073dc",
      "kb": 199
     }
    ],
+   "datasheet": {
+    "de": {
+     "src": "datasheets/A1_Attenuverter_Datenblatt_DE.pdf?v=6b0604e7",
+     "kb": 1392
+    },
+    "en": {
+     "src": "datasheets/A1_Attenuverter_Datenblatt_EN.pdf?v=6b0604eb",
+     "kb": 1389
+    }
+   },
    "slug": "a1-attenuverter"
   },
   {
@@ -192,16 +202,26 @@
     {
      "kind": "main",
      "part": "",
-     "src": "schematics/A2_Dual_LFO_Schematic.pdf",
+     "src": "schematics/A2_Dual_LFO_Schematic.pdf?v=6b0076ea",
      "kb": 319
     },
     {
      "kind": "kit",
      "part": "",
-     "src": "schematics/A2_Kit_Schematic.pdf",
+     "src": "schematics/A2_Kit_Schematic.pdf?v=6b00772a",
      "kb": 322
     }
    ],
+   "datasheet": {
+    "de": {
+     "src": "datasheets/A2_Dual_LFO_Datenblatt_DE.pdf?v=6b0604f0",
+     "kb": 1839
+    },
+    "en": {
+     "src": "datasheets/A2_Dual_LFO_Datenblatt_EN.pdf?v=6b0604f5",
+     "kb": 1837
+    }
+   },
    "slug": "a2-dual-lfo"
   },
   {
@@ -299,16 +319,26 @@
     {
      "kind": "main",
      "part": "",
-     "src": "schematics/A3_Quad_VCA_Schematic.pdf",
+     "src": "schematics/A3_Quad_VCA_Schematic.pdf?v=6b007b8b",
      "kb": 312
     },
     {
      "kind": "kit",
      "part": "",
-     "src": "schematics/A3_Kit_Gesamt_Schematic.pdf",
+     "src": "schematics/A3_Kit_Gesamt_Schematic.pdf?v=6b007b8c",
      "kb": 314
     }
    ],
+   "datasheet": {
+    "de": {
+     "src": "datasheets/A3_Quad_VCA_Datenblatt_DE.pdf?v=6b0604fa",
+     "kb": 2022
+    },
+    "en": {
+     "src": "datasheets/A3_Quad_VCA_Datenblatt_EN.pdf?v=6b0604fd",
+     "kb": 2020
+    }
+   },
    "slug": "a3-quad-vca-mixer"
   },
   {
@@ -391,16 +421,26 @@
     {
      "kind": "main",
      "part": "",
-     "src": "schematics/A4_ADSR_Schematic.pdf",
+     "src": "schematics/A4_ADSR_Schematic.pdf?v=6b007b8d",
      "kb": 325
     },
     {
      "kind": "kit",
      "part": "",
-     "src": "schematics/A4_Kit_Gesamt_Schematic.pdf",
+     "src": "schematics/A4_Kit_Gesamt_Schematic.pdf?v=6b007b8e",
      "kb": 328
     }
    ],
+   "datasheet": {
+    "de": {
+     "src": "datasheets/A4_ADSR_Datenblatt_DE.pdf?v=6b060502",
+     "kb": 1437
+    },
+    "en": {
+     "src": "datasheets/A4_ADSR_Datenblatt_EN.pdf?v=6b060506",
+     "kb": 1434
+    }
+   },
    "slug": "a4-adsr"
   },
   {
@@ -483,16 +523,26 @@
     {
      "kind": "main",
      "part": "",
-     "src": "schematics/A5_VCF_Schematic.pdf",
+     "src": "schematics/A5_VCF_Schematic.pdf?v=6b007cd7",
      "kb": 307
     },
     {
      "kind": "kit",
      "part": "",
-     "src": "schematics/A5_Kit_Gesamt_Schematic.pdf",
+     "src": "schematics/A5_Kit_Gesamt_Schematic.pdf?v=6b007d16",
      "kb": 310
     }
    ],
+   "datasheet": {
+    "de": {
+     "src": "datasheets/A5_VCF_Datenblatt_DE.pdf?v=6b06050a",
+     "kb": 1300
+    },
+    "en": {
+     "src": "datasheets/A5_VCF_Datenblatt_EN.pdf?v=6b06050e",
+     "kb": 1297
+    }
+   },
    "slug": "a5-vcf"
   },
   {
@@ -569,16 +619,26 @@
     {
      "kind": "main",
      "part": "",
-     "src": "schematics/A6_VCO_Schematic.pdf",
+     "src": "schematics/A6_VCO_Schematic.pdf?v=6b006a6e",
      "kb": 257
     },
     {
      "kind": "kit",
      "part": "",
-     "src": "schematics/A6_Kit_Schematic.pdf",
+     "src": "schematics/A6_Kit_Schematic.pdf?v=6b006a6f",
      "kb": 259
     }
    ],
+   "datasheet": {
+    "de": {
+     "src": "datasheets/A6_VCO_Datenblatt_DE.pdf?v=6b060512",
+     "kb": 1663
+    },
+    "en": {
+     "src": "datasheets/A6_VCO_Datenblatt_EN.pdf?v=6b060515",
+     "kb": 1660
+    }
+   },
    "slug": "a6-vco"
   },
   {
@@ -661,16 +721,26 @@
     {
      "kind": "main",
      "part": "",
-     "src": "schematics/A7_Noise_Schematic.pdf",
+     "src": "schematics/A7_Noise_Schematic.pdf?v=6b0079cf",
      "kb": 255
     },
     {
      "kind": "kit",
      "part": "",
-     "src": "schematics/A7_Kit_Gesamt_Schematic.pdf",
+     "src": "schematics/A7_Kit_Gesamt_Schematic.pdf?v=6b007a02",
      "kb": 257
     }
    ],
+   "datasheet": {
+    "de": {
+     "src": "datasheets/A7_Noise_Datenblatt_DE.pdf?v=6b060519",
+     "kb": 927
+    },
+    "en": {
+     "src": "datasheets/A7_Noise_Datenblatt_EN.pdf?v=6b06051c",
+     "kb": 925
+    }
+   },
    "slug": "a7-noise"
   },
   {
@@ -758,16 +828,26 @@
     {
      "kind": "main",
      "part": "",
-     "src": "schematics/A8_SampleHold_Schematic.pdf",
+     "src": "schematics/A8_SampleHold_Schematic.pdf?v=6b00906f",
      "kb": 198
     },
     {
      "kind": "kit",
      "part": "",
-     "src": "schematics/A8_Kit_Gesamt_Schematic.pdf",
+     "src": "schematics/A8_Kit_Gesamt_Schematic.pdf?v=6b0090fe",
      "kb": 199
     }
    ],
+   "datasheet": {
+    "de": {
+     "src": "datasheets/A8_Sample_Hold_Datenblatt_DE.pdf?v=6b060520",
+     "kb": 942
+    },
+    "en": {
+     "src": "datasheets/A8_Sample_Hold_Datenblatt_EN.pdf?v=6b060523",
+     "kb": 940
+    }
+   },
    "slug": "a8-sample-hold"
   },
   {
@@ -844,16 +924,26 @@
     {
      "kind": "main",
      "part": "",
-     "src": "schematics/A9_RingMod_Schematic.pdf",
+     "src": "schematics/A9_RingMod_Schematic.pdf?v=6b0079e0",
      "kb": 237
     },
     {
      "kind": "kit",
      "part": "",
-     "src": "schematics/A9_Kit_Gesamt_Schematic.pdf",
+     "src": "schematics/A9_Kit_Gesamt_Schematic.pdf?v=6b0079e4",
      "kb": 239
     }
    ],
+   "datasheet": {
+    "de": {
+     "src": "datasheets/A9_Ring_Modulator_Datenblatt_DE.pdf?v=6b060527",
+     "kb": 902
+    },
+    "en": {
+     "src": "datasheets/A9_Ring_Modulator_Datenblatt_EN.pdf?v=6b06052a",
+     "kb": 900
+    }
+   },
    "slug": "a9-ring-modulator"
   },
   {
@@ -936,16 +1026,26 @@
     {
      "kind": "main",
      "part": "",
-     "src": "schematics/A10_Slew_Schematic.pdf",
+     "src": "schematics/A10_Slew_Schematic.pdf?v=6b0079e1",
      "kb": 220
     },
     {
      "kind": "kit",
      "part": "",
-     "src": "schematics/A10_Kit_Gesamt_Schematic.pdf",
+     "src": "schematics/A10_Kit_Gesamt_Schematic.pdf?v=6b0079e5",
      "kb": 222
     }
    ],
+   "datasheet": {
+    "de": {
+     "src": "datasheets/A10_Slew_Limiter_Datenblatt_DE.pdf?v=6b06052e",
+     "kb": 880
+    },
+    "en": {
+     "src": "datasheets/A10_Slew_Limiter_Datenblatt_EN.pdf?v=6b060530",
+     "kb": 877
+    }
+   },
    "slug": "a10-slew-limiter"
   },
   {
@@ -1048,16 +1148,26 @@
     {
      "kind": "main",
      "part": "",
-     "src": "schematics/A11_CompLogic_Schematic.pdf",
+     "src": "schematics/A11_CompLogic_Schematic.pdf?v=6b0079e3",
      "kb": 240
     },
     {
      "kind": "kit",
      "part": "",
-     "src": "schematics/A11_Kit_Gesamt_Schematic.pdf",
+     "src": "schematics/A11_Kit_Gesamt_Schematic.pdf?v=6b007a4d",
      "kb": 240
     }
    ],
+   "datasheet": {
+    "de": {
+     "src": "datasheets/A11_Comparator_Logic_Datenblatt_DE.pdf?v=6b060535",
+     "kb": 1308
+    },
+    "en": {
+     "src": "datasheets/A11_Comparator_Logic_Datenblatt_EN.pdf?v=6b060538",
+     "kb": 1305
+    }
+   },
    "slug": "a11-comparator-logic"
   },
   {
@@ -1160,16 +1270,26 @@
     {
      "kind": "main",
      "part": "",
-     "src": "schematics/A12_ClockDiv_Schematic.pdf",
+     "src": "schematics/A12_ClockDiv_Schematic.pdf?v=6b008075",
      "kb": 204
     },
     {
      "kind": "kit",
      "part": "",
-     "src": "schematics/A12_Kit_Gesamt_Schematic.pdf",
+     "src": "schematics/A12_Kit_Gesamt_Schematic.pdf?v=6b008076",
      "kb": 205
     }
    ],
+   "datasheet": {
+    "de": {
+     "src": "datasheets/A12_Clock_Divider_Datenblatt_DE.pdf?v=6b06053b",
+     "kb": 1231
+    },
+    "en": {
+     "src": "datasheets/A12_Clock_Divider_Datenblatt_EN.pdf?v=6b06053e",
+     "kb": 1229
+    }
+   },
    "slug": "a12-clock-divider"
   },
   {
@@ -1252,16 +1372,26 @@
     {
      "kind": "main",
      "part": "",
-     "src": "schematics/A13_Adder_Schematic.pdf",
+     "src": "schematics/A13_Adder_Schematic.pdf?v=6b007b21",
      "kb": 235
     },
     {
      "kind": "kit",
      "part": "",
-     "src": "schematics/A13_Kit_Gesamt_Schematic.pdf",
+     "src": "schematics/A13_Kit_Gesamt_Schematic.pdf?v=6b007b98",
      "kb": 237
     }
    ],
+   "datasheet": {
+    "de": {
+     "src": "datasheets/A13_Precision_Adder_Datenblatt_DE.pdf?v=6b0605ce",
+     "kb": 1145
+    },
+    "en": {
+     "src": "datasheets/A13_Precision_Adder_Datenblatt_EN.pdf?v=6b0605d1",
+     "kb": 1142
+    }
+   },
    "slug": "a13-precision-adder"
   },
   {
@@ -1336,16 +1466,26 @@
     {
      "kind": "main",
      "part": "",
-     "src": "schematics/A16_Audio_IO_Schematic.pdf",
+     "src": "schematics/A16_Audio_IO_Schematic.pdf?v=6b007a97",
      "kb": 325
     },
     {
      "kind": "main",
      "part": "traeger",
-     "src": "schematics/A16_Audio_IO_Traeger_Schematic.pdf",
+     "src": "schematics/A16_Audio_IO_Traeger_Schematic.pdf?v=6b007aa3",
      "kb": 66
     }
    ],
+   "datasheet": {
+    "de": {
+     "src": "datasheets/A16_Audio_IO_Datenblatt_DE.pdf?v=6b0605d4",
+     "kb": 1056
+    },
+    "en": {
+     "src": "datasheets/A16_Audio_IO_Datenblatt_EN.pdf?v=6b0605d7",
+     "kb": 1053
+    }
+   },
    "slug": "a16-audio-i-o"
   },
   {
@@ -1407,10 +1547,20 @@
     {
      "kind": "main",
      "part": "",
-     "src": "schematics/P1_Multiple_Schematic.pdf",
+     "src": "schematics/P1_Multiple_Schematic.pdf?v=6b00723e",
      "kb": 60
     }
    ],
+   "datasheet": {
+    "de": {
+     "src": "datasheets/P1_4x_Multiple_Datenblatt_DE.pdf?v=6b060541",
+     "kb": 592
+    },
+    "en": {
+     "src": "datasheets/P1_4x_Multiple_Datenblatt_EN.pdf?v=6b060543",
+     "kb": 589
+    }
+   },
    "slug": "p1-4x-multiple"
   },
   {
@@ -1472,10 +1622,20 @@
     {
      "kind": "main",
      "part": "",
-     "src": "schematics/P2_Multiple_Schematic.pdf",
+     "src": "schematics/P2_Multiple_Schematic.pdf?v=6b007295",
      "kb": 75
     }
    ],
+   "datasheet": {
+    "de": {
+     "src": "datasheets/P2_8x_Multiple_Datenblatt_DE.pdf?v=6b060546",
+     "kb": 991
+    },
+    "en": {
+     "src": "datasheets/P2_8x_Multiple_Datenblatt_EN.pdf?v=6b060548",
+     "kb": 988
+    }
+   },
    "slug": "p2-8x-multiple"
   },
   {
@@ -1539,10 +1699,20 @@
     {
      "kind": "kit",
      "part": "",
-     "src": "schematics/P3_Mute_THT_Schematic.pdf",
+     "src": "schematics/P3_Mute_THT_Schematic.pdf?v=6b0073fb",
      "kb": 93
     }
    ],
+   "datasheet": {
+    "de": {
+     "src": "datasheets/P3_Mute_Switch_Datenblatt_DE.pdf?v=6b06054b",
+     "kb": 1030
+    },
+    "en": {
+     "src": "datasheets/P3_Mute_Switch_Datenblatt_EN.pdf?v=6b06054d",
+     "kb": 1026
+    }
+   },
    "slug": "p3-mute-switch"
   },
   {
@@ -1604,10 +1774,20 @@
     {
      "kind": "main",
      "part": "",
-     "src": "schematics/P4_Attenuator_Schematic.pdf",
+     "src": "schematics/P4_Attenuator_Schematic.pdf?v=6b0072fc",
      "kb": 89
     }
    ],
+   "datasheet": {
+    "de": {
+     "src": "datasheets/P4_Attenuator_Passiv_Datenblatt_DE.pdf?v=6b060550",
+     "kb": 840
+    },
+    "en": {
+     "src": "datasheets/P4_Attenuator_Passiv_Datenblatt_EN.pdf?v=6b060552",
+     "kb": 837
+    }
+   },
    "slug": "p4-attenuator"
   },
   {
@@ -1671,10 +1851,20 @@
     {
      "kind": "kit",
      "part": "",
-     "src": "schematics/P5_LPHP_Kit_Schematic.pdf",
+     "src": "schematics/P5_LPHP_Kit_Schematic.pdf?v=6b007466",
      "kb": 81
     }
    ],
+   "datasheet": {
+    "de": {
+     "src": "datasheets/P5_Passive_LP_HP_Datenblatt_DE.pdf?v=6b060555",
+     "kb": 580
+    },
+    "en": {
+     "src": "datasheets/P5_Passive_LP_HP_Datenblatt_EN.pdf?v=6b060557",
+     "kb": 578
+    }
+   },
    "slug": "p5-passive-lp-hp"
   },
   {
@@ -1738,16 +1928,26 @@
     {
      "kind": "kit",
      "part": "front",
-     "src": "schematics/P6_Output_THT_Front_Schematic.pdf",
+     "src": "schematics/P6_Output_THT_Front_Schematic.pdf?v=6b007536",
      "kb": 89
     },
     {
      "kind": "kit",
      "part": "main",
-     "src": "schematics/P6_Output_THT_Main_Schematic.pdf",
+     "src": "schematics/P6_Output_THT_Main_Schematic.pdf?v=6b007538",
      "kb": 81
     }
    ],
+   "datasheet": {
+    "de": {
+     "src": "datasheets/P6_Output_Datenblatt_DE.pdf?v=6b06055a",
+     "kb": 721
+    },
+    "en": {
+     "src": "datasheets/P6_Output_Datenblatt_EN.pdf?v=6b06055d",
+     "kb": 718
+    }
+   },
    "slug": "p6-output"
   },
   {
@@ -1822,16 +2022,26 @@
     {
      "kind": "main",
      "part": "",
-     "src": "schematics/P7_Mixer_Schematic.pdf",
+     "src": "schematics/P7_Mixer_Schematic.pdf?v=6b00739d",
      "kb": 81
     },
     {
      "kind": "kit",
      "part": "",
-     "src": "schematics/P7_Mixer_THT_Schematic.pdf",
+     "src": "schematics/P7_Mixer_THT_Schematic.pdf?v=6b00739e",
      "kb": 82
     }
    ],
+   "datasheet": {
+    "de": {
+     "src": "datasheets/P7_Passive_Mixer_Datenblatt_DE.pdf?v=6b060560",
+     "kb": 1043
+    },
+    "en": {
+     "src": "datasheets/P7_Passive_Mixer_Datenblatt_EN.pdf?v=6b060562",
+     "kb": 1040
+    }
+   },
    "slug": "p7-passive-mixer"
   },
   {
@@ -1884,6 +2094,16 @@
    },
    "variants": [],
    "schematics": [],
+   "datasheet": {
+    "de": {
+     "src": "datasheets/P8_Blanking_Panel_Datenblatt_DE.pdf?v=6b060564",
+     "kb": 346
+    },
+    "en": {
+     "src": "datasheets/P8_Blanking_Panel_Datenblatt_EN.pdf?v=6b060567",
+     "kb": 344
+    }
+   },
    "slug": "p8-blanking-panel"
   },
   {
@@ -2001,28 +2221,38 @@
     {
      "kind": "main",
      "part": "control",
-     "src": "schematics/D1_Control_Schematic.pdf",
+     "src": "schematics/D1_Control_Schematic.pdf?v=6b007cdd",
      "kb": 257
     },
     {
      "kind": "main",
      "part": "main",
-     "src": "schematics/D1_Main_Schematic.pdf",
+     "src": "schematics/D1_Main_Schematic.pdf?v=6b007cdc",
      "kb": 277
     },
     {
      "kind": "kit",
      "part": "control",
-     "src": "schematics/D1_Kit_Control_Schematic.pdf",
+     "src": "schematics/D1_Kit_Control_Schematic.pdf?v=6b007ce0",
      "kb": 251
     },
     {
      "kind": "kit",
      "part": "main",
-     "src": "schematics/D1_Kit_Main_Schematic.pdf",
+     "src": "schematics/D1_Kit_Main_Schematic.pdf?v=6b007ce1",
      "kb": 279
     }
    ],
+   "datasheet": {
+    "de": {
+     "src": "datasheets/D1_Sequencer_8Step_Datenblatt_DE.pdf?v=6b06056d",
+     "kb": 2059
+    },
+    "en": {
+     "src": "datasheets/D1_Sequencer_8Step_Datenblatt_EN.pdf?v=6b060571",
+     "kb": 2056
+    }
+   },
    "slug": "d1-8-step-sequencer"
   },
   {
@@ -2166,22 +2396,32 @@
     {
      "kind": "main",
      "part": "",
-     "src": "schematics/D2_Turing_Schematic.pdf",
+     "src": "schematics/D2_Turing_Schematic.pdf?v=6b007cde",
      "kb": 274
     },
     {
      "kind": "main",
      "part": "rgb",
-     "src": "schematics/D2_Turing_RGB_Schematic.pdf",
+     "src": "schematics/D2_Turing_RGB_Schematic.pdf?v=6b007cdf",
      "kb": 304
     },
     {
      "kind": "kit",
      "part": "",
-     "src": "schematics/D2_Kit_Gesamt_Schematic.pdf",
+     "src": "schematics/D2_Kit_Gesamt_Schematic.pdf?v=6b007ce2",
      "kb": 276
     }
    ],
+   "datasheet": {
+    "de": {
+     "src": "datasheets/D2_Random_Turing_Machine_Datenblatt_DE.pdf?v=6b060576",
+     "kb": 1392
+    },
+    "en": {
+     "src": "datasheets/D2_Random_Turing_Machine_Datenblatt_EN.pdf?v=6b060579",
+     "kb": 1390
+    }
+   },
    "slug": "d2-random-turing-machine"
   },
   {
@@ -2279,16 +2519,26 @@
     {
      "kind": "main",
      "part": "",
-     "src": "schematics/D3_Sampler_Schematic.pdf",
+     "src": "schematics/D3_Sampler_Schematic.pdf?v=6b0077a2",
      "kb": 349
     },
     {
      "kind": "kit",
      "part": "",
-     "src": "schematics/D3_Kit_Gesamt_Schematic.pdf",
+     "src": "schematics/D3_Kit_Gesamt_Schematic.pdf?v=6b0077ce",
      "kb": 351
     }
    ],
+   "datasheet": {
+    "de": {
+     "src": "datasheets/D3_Sampler_Looper_Datenblatt_DE.pdf?v=6b06057e",
+     "kb": 1949
+    },
+    "en": {
+     "src": "datasheets/D3_Sampler_Looper_Datenblatt_EN.pdf?v=6b060581",
+     "kb": 1947
+    }
+   },
    "slug": "d3-sampler-looper"
   },
   {
@@ -2386,28 +2636,38 @@
     {
      "kind": "main",
      "part": "control",
-     "src": "schematics/D4_Control_Schematic.pdf",
+     "src": "schematics/D4_Control_Schematic.pdf?v=6b00730b",
      "kb": 140
     },
     {
      "kind": "main",
      "part": "main",
-     "src": "schematics/D4_Main_Schematic.pdf",
+     "src": "schematics/D4_Main_Schematic.pdf?v=6b007573",
      "kb": 258
     },
     {
      "kind": "kit",
      "part": "control",
-     "src": "schematics/D4_Kit_Control_Schematic.pdf",
+     "src": "schematics/D4_Kit_Control_Schematic.pdf?v=6b0075ca",
      "kb": 140
     },
     {
      "kind": "kit",
      "part": "main",
-     "src": "schematics/D4_Kit_Main_Schematic.pdf",
+     "src": "schematics/D4_Kit_Main_Schematic.pdf?v=6b0075cb",
      "kb": 260
     }
    ],
+   "datasheet": {
+    "de": {
+     "src": "datasheets/D4_Delay_Reverb_Datenblatt_DE.pdf?v=6b060586",
+     "kb": 1505
+    },
+    "en": {
+     "src": "datasheets/D4_Delay_Reverb_Datenblatt_EN.pdf?v=6b06058a",
+     "kb": 1503
+    }
+   },
    "slug": "d4-delay-reverb"
   },
   {
@@ -2495,16 +2755,26 @@
     {
      "kind": "main",
      "part": "",
-     "src": "schematics/D5_Quantizer_Schematic.pdf",
+     "src": "schematics/D5_Quantizer_Schematic.pdf?v=6b007b35",
      "kb": 260
     },
     {
      "kind": "kit",
      "part": "",
-     "src": "schematics/D5_Kit_Gesamt_Schematic.pdf",
+     "src": "schematics/D5_Kit_Gesamt_Schematic.pdf?v=6b007b3a",
      "kb": 262
     }
    ],
+   "datasheet": {
+    "de": {
+     "src": "datasheets/D5_Quantizer_Datenblatt_DE.pdf?v=6b06058e",
+     "kb": 1271
+    },
+    "en": {
+     "src": "datasheets/D5_Quantizer_Datenblatt_EN.pdf?v=6b060592",
+     "kb": 1268
+    }
+   },
    "slug": "d5-quantizer"
   },
   {
@@ -2602,16 +2872,26 @@
     {
      "kind": "main",
      "part": "",
-     "src": "schematics/D6_Euclidean_Schematic.pdf",
+     "src": "schematics/D6_Euclidean_Schematic.pdf?v=6b007b37",
      "kb": 306
     },
     {
      "kind": "kit",
      "part": "",
-     "src": "schematics/D6_Kit_Gesamt_Schematic.pdf",
+     "src": "schematics/D6_Kit_Gesamt_Schematic.pdf?v=6b007b3b",
      "kb": 307
     }
    ],
+   "datasheet": {
+    "de": {
+     "src": "datasheets/D6_Euclidean_Rhythm_Datenblatt_DE.pdf?v=6b060597",
+     "kb": 1663
+    },
+    "en": {
+     "src": "datasheets/D6_Euclidean_Rhythm_Datenblatt_EN.pdf?v=6b06059a",
+     "kb": 1660
+    }
+   },
    "slug": "d6-euclidean-rhythm"
   },
   {
@@ -2709,16 +2989,26 @@
     {
      "kind": "main",
      "part": "",
-     "src": "schematics/D7_MIDI_to_CV_Schematic.pdf",
+     "src": "schematics/D7_MIDI_to_CV_Schematic.pdf?v=6b007b38",
      "kb": 281
     },
     {
      "kind": "kit",
      "part": "",
-     "src": "schematics/D7_Kit_Gesamt_Schematic.pdf",
+     "src": "schematics/D7_Kit_Gesamt_Schematic.pdf?v=6b007b3c",
      "kb": 283
     }
    ],
+   "datasheet": {
+    "de": {
+     "src": "datasheets/D7_MIDI_to_CV_Datenblatt_DE.pdf?v=6b06059e",
+     "kb": 1610
+    },
+    "en": {
+     "src": "datasheets/D7_MIDI_to_CV_Datenblatt_EN.pdf?v=6b0605a2",
+     "kb": 1608
+    }
+   },
    "slug": "d7-midi-to-cv"
   },
   {
@@ -2801,16 +3091,26 @@
     {
      "kind": "main",
      "part": "",
-     "src": "schematics/D8_Wavetable_Schematic.pdf",
+     "src": "schematics/D8_Wavetable_Schematic.pdf?v=6b007b8c",
      "kb": 233
     },
     {
      "kind": "kit",
      "part": "",
-     "src": "schematics/D8_Kit_Schematic.pdf",
+     "src": "schematics/D8_Kit_Schematic.pdf?v=6b007b8e",
      "kb": 235
     }
    ],
+   "datasheet": {
+    "de": {
+     "src": "datasheets/D8_Wavetable_Oscillator_Datenblatt_DE.pdf?v=6b0605a6",
+     "kb": 1790
+    },
+    "en": {
+     "src": "datasheets/D8_Wavetable_Oscillator_Datenblatt_EN.pdf?v=6b0605a9",
+     "kb": 1788
+    }
+   },
    "slug": "d8-wavetable-oscillator"
   },
   {
@@ -2896,16 +3196,26 @@
     {
      "kind": "main",
      "part": "",
-     "src": "schematics/D9_Granular_Schematic.pdf",
+     "src": "schematics/D9_Granular_Schematic.pdf?v=6b007b8d",
      "kb": 307
     },
     {
      "kind": "kit",
      "part": "",
-     "src": "schematics/D9_Kit_Schematic.pdf",
+     "src": "schematics/D9_Kit_Schematic.pdf?v=6b007b93",
      "kb": 309
     }
    ],
+   "datasheet": {
+    "de": {
+     "src": "datasheets/D9_Granular_Synthesizer_Datenblatt_DE.pdf?v=6b0605ae",
+     "kb": 2042
+    },
+    "en": {
+     "src": "datasheets/D9_Granular_Synthesizer_Datenblatt_EN.pdf?v=6b0605b2",
+     "kb": 2040
+    }
+   },
    "slug": "d9-granular-synthesizer"
   },
   {
@@ -3008,16 +3318,26 @@
     {
      "kind": "main",
      "part": "",
-     "src": "schematics/D10_CV_to_MIDI_Schematic.pdf",
+     "src": "schematics/D10_CV_to_MIDI_Schematic.pdf?v=6b007b8e",
      "kb": 320
     },
     {
      "kind": "kit",
      "part": "",
-     "src": "schematics/D10_Kit_Schematic.pdf",
+     "src": "schematics/D10_Kit_Schematic.pdf?v=6b007b98",
      "kb": 323
     }
    ],
+   "datasheet": {
+    "de": {
+     "src": "datasheets/D10_CV_to_MIDI_Datenblatt_DE.pdf?v=6b0605b6",
+     "kb": 1428
+    },
+    "en": {
+     "src": "datasheets/D10_CV_to_MIDI_Datenblatt_EN.pdf?v=6b0605ba",
+     "kb": 1425
+    }
+   },
    "slug": "d10-cv-to-midi"
   },
   {
@@ -3094,16 +3414,26 @@
     {
      "kind": "main",
      "part": "",
-     "src": "schematics/D11_Tuner_Scope_Schematic.pdf",
+     "src": "schematics/D11_Tuner_Scope_Schematic.pdf?v=6b007a6d",
      "kb": 278
     },
     {
      "kind": "kit",
      "part": "",
-     "src": "schematics/D11_Kit_Gesamt_Schematic.pdf",
+     "src": "schematics/D11_Kit_Gesamt_Schematic.pdf?v=6b007ace",
      "kb": 280
     }
    ],
+   "datasheet": {
+    "de": {
+     "src": "datasheets/D11_Precision_Tuner_Scope_Datenblatt_DE.pdf?v=6b0605be",
+     "kb": 1384
+    },
+    "en": {
+     "src": "datasheets/D11_Precision_Tuner_Scope_Datenblatt_EN.pdf?v=6b0605c1",
+     "kb": 1382
+    }
+   },
    "slug": "d11-tuner-scope"
   },
   {
@@ -3180,16 +3510,26 @@
     {
      "kind": "main",
      "part": "",
-     "src": "schematics/D12_Logic_Schematic.pdf",
+     "src": "schematics/D12_Logic_Schematic.pdf?v=6b007a76",
      "kb": 340
     },
     {
      "kind": "kit",
      "part": "",
-     "src": "schematics/D12_Kit_Gesamt_Schematic.pdf",
+     "src": "schematics/D12_Kit_Gesamt_Schematic.pdf?v=6b007ad7",
      "kb": 343
     }
    ],
+   "datasheet": {
+    "de": {
+     "src": "datasheets/D12_Logic_Boolean_Processor_Datenblatt_DE.pdf?v=6b0605c6",
+     "kb": 1819
+    },
+    "en": {
+     "src": "datasheets/D12_Logic_Boolean_Processor_Datenblatt_EN.pdf?v=6b0605ca",
+     "kb": 1816
+    }
+   },
    "slug": "d12-logic-processor"
   },
   {
@@ -3253,10 +3593,20 @@
     {
      "kind": "main",
      "part": "",
-     "src": "schematics/D14_Clock_Schematic.pdf",
+     "src": "schematics/D14_Clock_Schematic.pdf?v=6b007a5f",
      "kb": 305
     }
    ],
+   "datasheet": {
+    "de": {
+     "src": "datasheets/D14_Master_Clock_Datenblatt_DE.pdf?v=6b0605da",
+     "kb": 966
+    },
+    "en": {
+     "src": "datasheets/D14_Master_Clock_Datenblatt_EN.pdf?v=6b0605dd",
+     "kb": 963
+    }
+   },
    "slug": "d14-master-clock"
   }
  ]

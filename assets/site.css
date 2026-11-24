@@ -120,12 +120,13 @@ footer a{color:var(--mut)}
 .sch{margin-top:56px}
 .sch h2{margin-top:0}
 .sch ul{list-style:none;margin:18px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:10px}
-.sch a{display:inline-flex;align-items:center;gap:10px;padding:10px 16px;border:1px solid var(--line);border-radius:10px;background:var(--bg2);color:var(--fg);text-decoration:none;font-size:15px}
-.sch a:hover{border-color:var(--gold);color:var(--gold)}
-.sch .doc{font-size:11px;font-weight:700;letter-spacing:.06em;color:#111;background:var(--gold);border-radius:4px;padding:2px 6px}
-.sch .kb{color:var(--mut);font-size:13px}
+.sch a,.ds a{display:inline-flex;align-items:center;gap:10px;padding:10px 16px;border:1px solid var(--line);border-radius:10px;background:var(--bg2);color:var(--fg);text-decoration:none;font-size:15px}
+.sch a:hover,.ds a:hover{border-color:var(--gold);color:var(--gold)}
+.sch .doc,.ds .doc{font-size:11px;font-weight:700;letter-spacing:.06em;color:#111;background:var(--gold);border-radius:4px;padding:2px 6px}
+.sch .kb,.ds .kb{color:var(--mut);font-size:13px}
 .fp i.rgb{background:radial-gradient(circle,#fff 0,hsl(var(--h) 100% 62%) 30%,hsl(var(--h) 100% 50%) 52%,hsla(var(--h),100%,50%,0) 72%);box-shadow:0 0 .9em .25em hsla(var(--h),100%,55%,.55)}
 .legal{max-width:72ch}
 .legal h2{font-size:19px;margin:34px 0 8px}
 .legal p{margin:0 0 12px;line-height:1.6}
 .legal a{color:var(--gold)}
+.ds{margin:18px 0 0}
